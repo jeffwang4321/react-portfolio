@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 const HomeSection = () => {
   return (
     <div id="home">
-      <img src={'./assets/jw.jpg'} alt="headshot" />
+      <img src={'./assets/headshot.jpg'} alt="headshot" />
       <h4>Jeff Wang</h4>
       <p>Computer Science Undergraduate @ Simon Fraser University</p> 
       <div id="home_buttons">
