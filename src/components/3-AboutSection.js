@@ -5,7 +5,7 @@ const AboutSection = () => {
     <div id="about">
       <h3>About Me</h3>
       <p>
-        Hi there! I'm Jeff Wang and I'm an undergraduate computer science student at Simon Fraser University residing in Vancouver, BC. I love being a software developer and the freedom to express my ideas through code!  
+        Hi there! I'm Jeff Wang and I'm an undergraduate computer science student studying at Simon Fraser University. I love being a software developer and the freedom to express my ideas through code! I am always excited to learn new technologies and take on challenges in this evolving industry.  
       </p>
     </div>
   );

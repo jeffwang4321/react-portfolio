@@ -650,7 +650,7 @@ footer {
   color: white;
   text-align: center;
   padding: 2rem;
-  border-top: 5px solid var(--clr-main-1);
+  border-top: 5px solid white;
 }
 footer a {
   color: white;

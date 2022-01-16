@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaPython, FaPaintBrush } from 'react-icons/fa';
-import { SiCplusplus, SiJavascript } from 'react-icons/si';
+import { FaPython, FaPaintBrush, FaNodeJs } from 'react-icons/fa';
+import { SiCplusplus } from 'react-icons/si';
 
 const SkillsSection = () => {
   return (
@@ -45,8 +45,8 @@ const SkillsSection = () => {
           </li>
           <li>
             <div className="progress percent90"><span>Love It</span></div>
-            <SiJavascript id="icons2"/>
-            <strong>JavaScript, HTML, CSS</strong>
+            <FaNodeJs id="icons"/>
+            <strong>JavaScript, Node.js, React</strong>
           </li>
           <li>
             <div className="progress percent95"><span>Having Fun</span></div>
