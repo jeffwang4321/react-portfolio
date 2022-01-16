@@ -18,7 +18,7 @@ const ThemeButton = () => {
 
   return (
     <button className="theme-btn" onClick={toggleTheme}>
-      <RiSunFill/>
+      <RiSunFill className="theme-btn-icon"/>
     </button>
   );
 }

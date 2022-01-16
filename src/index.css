@@ -693,3 +693,14 @@ Theme Button
 .theme-btn:hover{
   background-color: var(--clr-highlight);
 }
+
+.theme-btn-icon{
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+  0%{   color: white;     }
+  80%{  color: white;     }
+  81%{  color: transparent; }
+  100%{ color: transparent; }
+}
