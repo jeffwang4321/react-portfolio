@@ -1,0 +1,687 @@
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+  --transition: all 0.3s linear;
+}
+
+.dark-theme {
+  --clr-bg-1: black;
+  --clr-highlight: grey;
+
+  --clr-main-1: #4070F4; 
+  --clr-main-2: black;
+
+  --clr-sub-1: #657d98;
+  --clr-sub-2: white;
+
+  --clr-font: white;
+  --clr-dropshadow: rgba(121, 121, 121, 0.3);
+}
+
+.light-theme {
+  --clr-bg-1: white;
+  --clr-highlight: grey;
+
+  --clr-main-1: #4070F4; 
+  --clr-main-2: #F4F7FF;
+
+  --clr-sub-1: #dae2ec;
+  --clr-sub-2: #657d98;
+
+  --clr-font: black;
+  --clr-dropshadow: rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*
+=============== 
+Global Styles
+===============
+*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--clr-font);
+  background: var(--clr-bg-1);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Scrollbar Effects */
+::-webkit-scrollbar {
+  width: 1vw;
+  height: 1vw;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+} 
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+
+
+/*
+=============== 
+Navbar
+===============
+*/
+h2 span {
+  color: var(--clr-main-1);
+}
+nav {
+  background: var(--clr-main-2);
+  box-shadow: 0 5px 15px var(--clr-dropshadow);
+  position: fixed;
+  top: 0;
+  width:100%;
+  z-index: 1;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.2rem;
+  background: transparent;
+  color: var(--clr-font);
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-main-1);
+  transform: rotate(90deg);
+}
+.links a {
+  color: var(--clr-font);
+  font-size: 1rem;
+  display: block;
+  padding: 0.5rem 1.5rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  color: var(--clr-main-1);
+  padding-left: 2.5rem;
+}
+.social-icons {
+  display: none;
+}
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+@media screen and (min-width: 765px) {
+  .nav-center {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0.2rem 0.6rem;
+    margin: 0rem 0.6rem;
+    border-bottom: 3px solid transparent;
+  }
+  .links a:hover {
+    padding: 0.2rem 0.6rem;
+    margin: 0rem 0.6rem;
+    border-bottom: 3px solid var(--clr-main-1);
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.8rem;
+    font-size: 1.2rem;
+    color: var(--clr-font);
+  }
+  .social-icons a:hover {
+    color: var(--clr-main-1);
+  }
+}
+
+
+
+/*
+=============== 
+HomePage
+===============
+*/
+#home{
+  text-align: center;  
+  padding-top: 5.5rem;
+}
+#home img{
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+#home h4{
+  margin: 1.5rem;
+  font-size: 3rem;
+}
+#home p{
+  font-size: 1rem;
+}
+
+#home_buttons{
+  margin-top: 2rem;
+}
+#resume_button{
+  background-color: var(--clr-main-1);
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  transition: var(--transition);
+}
+#resume_button:hover{
+  background-color: var(--clr-highlight);
+}
+
+#git_button{
+  margin-left: 30px;
+  color: var(--clr-font);
+  text-decoration: none;
+  transition: var(--transition);
+}
+#FaGithub{
+  margin-right: 8px;
+  font-size: 2.25rem;
+  color: var(--clr-font);
+  vertical-align: middle;
+  transition: var(--transition);
+}
+#git_button b{
+  font-size: 1rem;
+  vertical-align: middle;
+}
+#git_button:hover, 
+#git_button:hover #FaGithub{
+  color: var(--clr-highlight);
+}
+
+
+
+/*
+=============== 
+AboutPage
+===============
+*/
+#about{
+  text-align: center;  
+  padding-top: 5rem;
+}
+#about h3{
+  margin: 0 auto 1rem;
+  color: var(--clr-main-1);
+  border-bottom: 3px solid var(--clr-main-1);
+  width: 180px;
+  font-size: 2rem;
+}
+#about p{
+  padding: 1rem 25%;
+}
+
+
+
+/*
+=============== 
+Profile and Skills Section
+===============
+*/
+
+/* Profile Section */
+.skills{
+  display: flex;
+  padding: 3rem 15% 0;
+}
+.column{
+  flex: 50%;
+}
+.info-list{
+  list-style: none;
+  margin-top: 0.6rem;
+}
+.info-list li{
+  padding: 1.4rem 0;
+}
+li a{
+  text-decoration: none;
+  color: var(--clr-main-1);
+  transition: var(--transition);
+}
+li a:hover{
+  color:  var(--clr-highlight);
+}
+.skills-button{
+  text-align: center;
+}
+
+/* Skillbars Section */
+.skill-bars{
+  list-style: none;
+  padding: 3rem 0 0;
+}
+.skill-bars li {
+  position: relative;
+  background: grey;
+  height: 7px;
+  width: 100%;
+  margin-bottom: 3.5rem;
+}
+.skill-bars li strong {
+  position: absolute;
+  color: var(--clr-font);
+  top: -30px;
+  left: 40px;
+}
+.skill-bars li #icons{   
+  position: absolute;
+  color: var(--clr-font);
+  top: -36px;
+  font-size: 2rem;
+}
+.skill-bars li #icons2{   
+  position: absolute;
+  color: var(--clr-font);
+  top: -36px;
+  font-size: 1.75rem;
+}
+.skill-bars li .progress {
+  position: relative;
+  background: var(--clr-font);
+  height: 100%;
+}
+
+/* Chat bubbles */
+.skill-bars li .progress span {
+  position: absolute;
+  right: -17px;
+  top: -40px;
+  color: var(--clr-bg-1);
+  background: var(--clr-font);
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.skill-bars li .progress span::after {
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 5px solid var(--clr-font);;
+  content: "";
+}
+.skill-bars li .percent80  { width: 91%; }
+.skill-bars li .percent85  { width: 93%; }
+.skill-bars li .percent90  { width: 95%; }
+.skill-bars li .percent95  { width: 97%; }
+
+/* Remove Chat bubbles */
+@media only screen and (max-width : 995px){
+  .skill-bars li .progress span {
+    color: transparent;
+    background: transparent;
+  }
+  .skill-bars li .progress span::after {
+    border: none;
+  }
+}
+
+/* Shift SkillsSection into 1 column and show Chat bubbles again */
+@media only screen and (max-width : 815px){
+  #about p{
+    padding: 1rem 15%;
+  }
+
+  .skills{
+    display: block;
+    padding: 0 15%;
+  }
+  .column{
+    margin-top: 3rem;
+  }
+
+  .skill-bars li .progress span {
+    color: var(--clr-bg-1);
+    background: var(--clr-font);
+  }
+  .skill-bars li .progress span::after {
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid var(--clr-font);;
+  }
+}
+
+/* Remove Chat bubbles */
+@media only screen and (max-width : 500px){
+  .skill-bars li .progress span {
+    color: transparent;
+    background: transparent;
+  }
+  .skill-bars li .progress span::after {
+    border: none;
+  }
+}
+
+/* Remove Skills Text*/
+@media only screen and (max-width : 375px){
+  .skill-bars li strong {
+    top: -28px;
+    font-size: 13px;
+  }
+}
+
+
+
+/*
+=============== 
+Work Page
+===============
+*/
+#work, 
+#projects{
+  padding-top: 5rem;
+}
+#work h2, 
+#projects h2{
+  text-align: center; 
+  margin: 0 auto 2rem;
+  color: var(--clr-main-1);
+  border-bottom: 3px solid var(--clr-main-1);
+  width: 180px;
+  font-size: 2rem;
+}
+
+/* Job buttons */
+.jobs-center,
+.project-center {
+  width: 70vw;
+  margin: 0 auto;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.job-btn,
+.project-btn {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.25rem;
+  margin: 0 1rem 1rem;
+  transition: var(--transition);
+  cursor: pointer;
+  padding: 0.25rem 0;
+  color: var(--clr-font);
+}
+.active-btn,
+.job-btn:hover,
+.project-btn:hover {
+  color: var(--clr-main-1);
+  box-shadow: 0 2.5px var(--clr-main-1);
+}
+
+/* Job Details */
+.job-info h3,
+.project-info h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+}
+.job-info h4, 
+.technologies h4 {
+  color: var(--clr-sub-2);
+  background: var(--clr-sub-1);
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  border-radius: 10px;
+  margin: 0 0.75rem 0.75rem 0;
+}
+.job-date,
+.project-date {
+  color: var(--clr-sub-2);
+  margin-bottom: 1.25rem;
+}
+.job-desc,
+.project-desc {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.job-icon,
+.project-icon {
+  color: var(--clr-main-1);
+}
+
+.technologies {
+  width: 65vw;
+  margin: 2.5rem auto;
+}
+.technologies h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 990px) {
+  .jobs-center {
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+    column-gap: 4rem;
+  }
+  .btn-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .job-btn {
+    margin-bottom: 1rem;
+  }
+  .active-btn,
+  .job-btn:hover  {
+    box-shadow: -2px 0 var(--clr-main-1);
+  }
+}
+
+
+
+/*
+=============== 
+ImageToggle
+===============
+*/
+.imageToggle {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.img-container {
+  margin: 0 auto;
+  width: 65vw;
+  max-width: 60rem;
+  cursor: pointer;
+}
+.person-img {
+  width: 100%;
+  height: 100%; 
+}
+.prev-btn,
+.next-btn {
+  position: relative;
+  justify-self: right;
+  top: 6vw;
+  left: 23vw;
+  margin: 0 0.5rem;
+  padding: 6px 5px 0;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-color: transparent;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+/*
+=============== 
+Project Buttons
+===============
+*/
+.project-info {
+  margin: 2rem auto 0;
+  width: 70vw;
+}
+.project-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-active-btn {
+  color: var(--clr-main-1);
+  box-shadow: 0 2.5px var(--clr-main-1);
+}
+
+#project-git_button{
+  color: var(--clr-font);
+  text-decoration: none;
+  /* transition: var(--transition); */
+}
+#project-FaGithub{
+  font-size: 2.25rem;
+  color: var(--clr-font);
+  vertical-align: middle;
+  /* transition: var(--transition); */
+}
+#project-git_button b{
+  margin-left: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  vertical-align: middle;
+}
+#project-git_button:hover, 
+#project-git_button:hover #project-FaGithub{
+  color: var(--clr-main-1);
+  text-decoration: underline;
+}
+
+
+.project-company_btn {
+  color: var(--clr-sub-2);
+  background: var(--clr-sub-1);
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  border-radius: 10px;
+  margin: 0 0.75rem 0.75rem 0;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  transition: var(--transition);
+}
+
+
+.iframeVideo {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-top: 5px solid var(--clr-main-1);
+}
+footer a {
+  color: white;
+}
+.footer-links a {
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: var(--transition);
+}
+footer a:hover {
+  color: var(--clr-main-1);
+}
+.footer-links {
+  padding: 1rem;
+}
+
+
+
+/*
+=============== 
+Theme Button
+===============
+*/
+.theme-btn{
+  position: fixed;
+  bottom: 2rem;
+  right: 5vw;
+  z-index: 1;
+
+  color: white;
+  background-color: var(--clr-main-1);
+  cursor: pointer;
+  padding: 15px 15px 10px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 20px;
+  transition: var(--transition);
+  box-shadow: 0 5px 15px var(--clr-dropshadow);
+}
+.theme-btn:hover{
+  background-color: var(--clr-highlight);
+}
