@@ -1,40 +1,24 @@
-import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import SkillsSection from './components/SkillsSection';
-import WorkPage from './components/WorkPage';
-import ProjectPage from './components/ProjectPage';
-import FooterSection from './components/FooterSection';
-import { RiSunFill } from 'react-icons/ri';
+import React from 'react';
+import Navbar from './components/1-Navbar';
+import HomeSection from './components/2-HomeSection';
+import AboutSection from './components/3-AboutSection';
+import SkillsSection from './components/4-SkillsSection';
+import WorkSection from './components/5-WorkSection';
+import ProjectSection from './components/6-ProjectSection';
+import Footer from './components/7-Footer';
+import ThemeButton from './components/8-ThemeButton';
 
 function App() {
-  const [theme, setTheme] = useState('light-theme');
-
-  const toggleTheme = () => {
-    if (theme === 'light-theme') {
-      setTheme('dark-theme');
-    } else {
-      setTheme('light-theme');
-    }
-  };
-  
-  useEffect(() => {
-    document.documentElement.className = theme;
-  }, [theme]);
-
   return (
     <>
       <Navbar/>   
-      <HomePage/>
-      <button className="theme-btn" onClick={toggleTheme}>
-        <RiSunFill/>
-      </button>
-      <AboutPage/>
+      <HomeSection/>
+      <AboutSection/>
       <SkillsSection/>
-      <WorkPage/>
-      <ProjectPage/>
-      <FooterSection/>
+      <WorkSection/>
+      <ProjectSection/>
+      <Footer/>
+      <ThemeButton/>
     </>
   );
 }

@@ -54,6 +54,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--clr-font);
   background: var(--clr-bg-1);
+  transition: var(--transition);
 }
 ul {
   list-style-type: none;
@@ -94,6 +95,7 @@ nav {
   top: 0;
   width:100%;
   z-index: 1;
+  transition: var(--transition);
 }
 .nav-header {
   display: flex;
@@ -314,23 +316,27 @@ li a:hover{
   color: var(--clr-font);
   top: -30px;
   left: 40px;
+  transition: var(--transition);
 }
 .skill-bars li #icons{   
   position: absolute;
   color: var(--clr-font);
   top: -36px;
   font-size: 2rem;
+  transition: var(--transition);
 }
 .skill-bars li #icons2{   
   position: absolute;
   color: var(--clr-font);
   top: -36px;
   font-size: 1.75rem;
+  transition: var(--transition);
 }
 .skill-bars li .progress {
   position: relative;
   background: var(--clr-font);
   height: 100%;
+  transition: var(--transition);
 }
 
 /* Chat bubbles */
@@ -343,6 +349,7 @@ li a:hover{
   padding: 5px 10px;
   border-radius: 3px;
   font-size: 14px;
+  transition: var(--transition);
 }
 .skill-bars li .progress span::after {
   position: absolute;
@@ -352,6 +359,7 @@ li a:hover{
   border-left: 5px solid transparent;
   border-top: 5px solid var(--clr-font);;
   content: "";
+  transition: var(--transition);
 }
 .skill-bars li .percent80  { width: 91%; }
 .skill-bars li .percent85  { width: 93%; }
@@ -592,13 +600,13 @@ Project Buttons
 #project-git_button{
   color: var(--clr-font);
   text-decoration: none;
-  /* transition: var(--transition); */
+  transition: var(--transition);
 }
 #project-FaGithub{
   font-size: 2.25rem;
   color: var(--clr-font);
   vertical-align: middle;
-  /* transition: var(--transition); */
+  transition: var(--transition);
 }
 #project-git_button b{
   margin-left: 15px;
@@ -678,9 +686,9 @@ Theme Button
   padding: 15px 15px 10px;
   font-size: 1.5rem;
   border: none;
-  border-radius: 20px;
+  border-radius: 50%;
   transition: var(--transition);
-  box-shadow: 0 5px 15px var(--clr-dropshadow);
+  box-shadow: 0 5px 10px grey;
 }
 .theme-btn:hover{
   background-color: var(--clr-highlight);
