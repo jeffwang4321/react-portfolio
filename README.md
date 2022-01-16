@@ -1,5 +1,4 @@
 # React Portfolio Website
-React Website - (React.js + HTML5 + CSS3 + JS)
 
 - Developed a responsive portfolio website using React & JavaScript to match my previous website design
 
@@ -7,4 +6,14 @@ React Website - (React.js + HTML5 + CSS3 + JS)
 
 - Incorporated icon libraries and JavaScript in order to enhance user experiences and visual appeal
 
-- Hosted: https://jeffwang4321.github.io/
+- Hosted: https://jeffwang.netlify.app/
+
+##Features
+
+- Nav Bar and menu drop down
+
+- Work and Project Tabs
+
+- Image gallery
+
+- Dark Mode
