@@ -8,9 +8,11 @@
 
 - Hosted: https://jeffwang.netlify.app/
 
-##Features
+- Previous website: https://jeffwang4321.github.io/
 
-- Nav Bar and menu drop down
+## Features
+
+- Nav Bar and drop down menu
 
 - Work and Project Tabs
 

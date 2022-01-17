@@ -1,29 +1,27 @@
 /*
 =============== 
-Variables
+Global Themes
 ===============
 */
-:root {
-  --transition: all 0.3s linear;
-}
-
 .dark-theme {
   --clr-bg-1: black;
-  --clr-highlight: grey;
+  --clr-highlight: #334168;
 
   --clr-main-1: #4070F4; 
-  --clr-main-2: black;
+  --clr-main-2: #334168;
 
-  --clr-sub-1: #657d98;
+  --clr-sub-1: #334168;
   --clr-sub-2: white;
 
   --clr-font: white;
-  --clr-dropshadow: rgba(121, 121, 121, 0.3);
-}
+  --clr-footer: #334168;
 
+  --clr-dropshadow: rgba(51, 65, 104, 0.8);
+  --transition: all 0.3s linear;
+}
 .light-theme {
   --clr-bg-1: white;
-  --clr-highlight: grey;
+  --clr-highlight: #657d98;
 
   --clr-main-1: #4070F4; 
   --clr-main-2: #F4F7FF;
@@ -32,7 +30,10 @@ Variables
   --clr-sub-2: #657d98;
 
   --clr-font: black;
+  --clr-footer: white;
+
   --clr-dropshadow: rgba(0, 0, 0, 0.2);
+  --transition: all 0.3s linear;
 }
 
 
@@ -89,12 +90,12 @@ h2 span {
   color: var(--clr-main-1);
 }
 nav {
-  background: var(--clr-main-2);
-  box-shadow: 0 5px 15px var(--clr-dropshadow);
   position: fixed;
   top: 0;
   width:100%;
   z-index: 1;
+  background: var(--clr-main-2);
+  box-shadow: 0 5px 15px var(--clr-dropshadow);
   transition: var(--transition);
 }
 .nav-header {
@@ -104,27 +105,26 @@ nav {
   padding: 1rem;
 }
 .nav-toggle {
-  font-size: 1.2rem;
   background: transparent;
   color: var(--clr-font);
   border-color: transparent;
-  transition: var(--transition);
+  font-size: 1.2rem;
   cursor: pointer;
+  transition: var(--transition);
 }
 .nav-toggle:hover {
   color: var(--clr-main-1);
   transform: rotate(90deg);
 }
 .links a {
-  color: var(--clr-font);
-  font-size: 1rem;
   display: block;
   padding: 0.5rem 1.5rem;
+  color: var(--clr-font);
   transition: var(--transition);
 }
 .links a:hover {
-  color: var(--clr-main-1);
   padding-left: 2.5rem;
+  color: var(--clr-main-1);
 }
 .social-icons {
   display: none;
@@ -137,12 +137,12 @@ nav {
 
 @media screen and (min-width: 765px) {
   .nav-center {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
   }
   .nav-header {
     padding: 0;
@@ -171,8 +171,8 @@ nav {
   }
   .social-icons a {
     margin: 0 0.8rem;
-    font-size: 1.2rem;
     color: var(--clr-font);
+    font-size: 1.2rem;
   }
   .social-icons a:hover {
     color: var(--clr-main-1);
@@ -186,59 +186,53 @@ nav {
 HomePage
 ===============
 */
-#home{
-  text-align: center;  
+#home {
   padding-top: 5.5rem;
+  text-align: center;  
 }
-#home img{
-  height: 300px;
-  width: 300px;
-  border-radius: 150px;
+#home img {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
 }
-#home h4{
+#home h4 {
   margin: 1.5rem;
   font-size: 3rem;
 }
-#home p{
-  font-size: 1rem;
-}
 
-#home_buttons{
+#home_buttons {
   margin-top: 2rem;
 }
-#resume_button{
+#resume_button {
+  padding: 10px 20px;
   background-color: var(--clr-main-1);
   color: white;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-size: 1rem;
   border: none;
   border-radius: 20px;
+  cursor: pointer;
   transition: var(--transition);
 }
-#resume_button:hover{
+#resume_button:hover {
   background-color: var(--clr-highlight);
 }
 
-#git_button{
+#git_button {
   margin-left: 30px;
   color: var(--clr-font);
-  text-decoration: none;
   transition: var(--transition);
 }
-#FaGithub{
+#FaGithub {
   margin-right: 8px;
-  font-size: 2.25rem;
-  color: var(--clr-font);
   vertical-align: middle;
+  color: var(--clr-font);
+  font-size: 2.25rem;
   transition: var(--transition);
 }
-#git_button b{
-  font-size: 1rem;
+#git_button b {
   vertical-align: middle;
 }
 #git_button:hover, 
-#git_button:hover #FaGithub{
+#git_button:hover #FaGithub {
   color: var(--clr-highlight);
 }
 
@@ -249,18 +243,18 @@ HomePage
 AboutPage
 ===============
 */
-#about{
-  text-align: center;  
+#about {
   padding-top: 5rem;
+  text-align: center;  
 }
-#about h3{
+#about h3 {
   margin: 0 auto 1rem;
+  width: 180px;
   color: var(--clr-main-1);
   border-bottom: 3px solid var(--clr-main-1);
-  width: 180px;
   font-size: 2rem;
 }
-#about p{
+#about p {
   padding: 1rem 25%;
 }
 
@@ -273,49 +267,46 @@ Profile and Skills Section
 */
 
 /* Profile Section */
-.skills{
+.skills {
   display: flex;
   padding: 3rem 15% 0;
 }
-.column{
+.column {
   flex: 50%;
 }
-.info-list{
-  list-style: none;
+.info-list {
   margin-top: 0.6rem;
 }
-.info-list li{
+.info-list li {
   padding: 1.4rem 0;
 }
-li a{
-  text-decoration: none;
+li a {
   color: var(--clr-main-1);
   transition: var(--transition);
 }
-li a:hover{
+li a:hover {
   color:  var(--clr-highlight);
 }
-.skills-button{
+.skills-button {
   text-align: center;
 }
 
 /* Skillbars Section */
-.skill-bars{
-  list-style: none;
+.skill-bars {
   padding: 3rem 0 0;
 }
 .skill-bars li {
   position: relative;
-  background: grey;
   height: 7px;
   width: 100%;
   margin-bottom: 3.5rem;
+  background: grey;
 }
 .skill-bars li strong {
   position: absolute;
-  color: var(--clr-font);
   top: -30px;
   left: 40px;
+  color: var(--clr-font);
   transition: var(--transition);
 }
 .skill-bars li #icons{   
@@ -325,17 +316,10 @@ li a:hover{
   font-size: 2rem;
   transition: var(--transition);
 }
-.skill-bars li #icons2{   
-  position: absolute;
-  color: var(--clr-font);
-  top: -36px;
-  font-size: 1.75rem;
-  transition: var(--transition);
-}
 .skill-bars li .progress {
   position: relative;
-  background: var(--clr-font);
   height: 100%;
+  background: var(--clr-font);
   transition: var(--transition);
 }
 
@@ -344,9 +328,9 @@ li a:hover{
   position: absolute;
   right: -17px;
   top: -40px;
+  padding: 5px 10px;
   color: var(--clr-bg-1);
   background: var(--clr-font);
-  padding: 5px 10px;
   border-radius: 3px;
   font-size: 14px;
   transition: var(--transition);
@@ -357,14 +341,14 @@ li a:hover{
   bottom: -5px;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
-  border-top: 5px solid var(--clr-font);;
+  border-top: 5px solid var(--clr-font);
   content: "";
   transition: var(--transition);
 }
-.skill-bars li .percent80  { width: 91%; }
-.skill-bars li .percent85  { width: 93%; }
-.skill-bars li .percent90  { width: 95%; }
-.skill-bars li .percent95  { width: 97%; }
+.skill-bars li .percent80 { width: 91%; }
+.skill-bars li .percent85 { width: 93%; }
+.skill-bars li .percent90 { width: 95%; }
+.skill-bars li .percent95 { width: 97%; }
 
 /* Remove Chat bubbles */
 @media only screen and (max-width : 995px){
@@ -379,15 +363,15 @@ li a:hover{
 
 /* Shift SkillsSection into 1 column and show Chat bubbles again */
 @media only screen and (max-width : 815px){
-  #about p{
+  #about p {
     padding: 1rem 15%;
   }
 
-  .skills{
+  .skills {
     display: block;
     padding: 0 15%;
   }
-  .column{
+  .column {
     margin-top: 3rem;
   }
 
@@ -398,7 +382,7 @@ li a:hover{
   .skill-bars li .progress span::after {
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
-    border-top: 5px solid var(--clr-font);;
+    border-top: 5px solid var(--clr-font);
   }
 }
 
@@ -429,16 +413,16 @@ Work Page
 ===============
 */
 #work, 
-#projects{
+#projects {
   padding-top: 5rem;
 }
 #work h2, 
-#projects h2{
+#projects h2 {
   text-align: center; 
+  width: 180px;
   margin: 0 auto 2rem;
   color: var(--clr-main-1);
   border-bottom: 3px solid var(--clr-main-1);
-  width: 180px;
   font-size: 2rem;
 }
 
@@ -452,19 +436,19 @@ Work Page
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 2rem;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 .job-btn,
 .project-btn {
+  margin: 0 1rem 1rem;
+  padding: 0.25rem 0;
   background: transparent;
+  color: var(--clr-font);
   border-color: transparent;
   font-size: 1.25rem;
-  margin: 0 1rem 1rem;
-  transition: var(--transition);
   cursor: pointer;
-  padding: 0.25rem 0;
-  color: var(--clr-font);
+  transition: var(--transition);
 }
 .active-btn,
 .job-btn:hover,
@@ -476,28 +460,30 @@ Work Page
 /* Job Details */
 .job-info h3,
 .project-info h3 {
+  margin-bottom: 0.75rem;
   font-size: 1.75rem;
   font-weight: 400;
-  margin-bottom: 0.75rem;
 }
 .job-info h4, 
 .technologies h4 {
-  color: var(--clr-sub-2);
-  background: var(--clr-sub-1);
   display: inline-block;
   padding: 0.35rem 1rem;
-  border-radius: 10px;
   margin: 0 0.75rem 0.75rem 0;
+  color: var(--clr-sub-2);
+  background: var(--clr-sub-1);
+  border-radius: 11px;
+  transition: var(--transition);
 }
 .job-date,
 .project-date {
-  color: var(--clr-sub-2);
   margin-bottom: 1.25rem;
+  color: var(--clr-sub-2);
+  transition: var(--transition);
 }
 .job-desc,
 .project-desc {
-  align-items: center;
   display: grid;
+  align-items: center;
   grid-template-columns: auto 1fr;
   column-gap: 1rem;
   margin-bottom: 1.25rem;
@@ -512,8 +498,8 @@ Work Page
   margin: 2.5rem auto;
 }
 .technologies h3 {
-  font-size: 1.25rem;
   margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -530,7 +516,7 @@ Work Page
     margin-bottom: 1rem;
   }
   .active-btn,
-  .job-btn:hover  {
+  .job-btn:hover {
     box-shadow: -2px 0 var(--clr-main-1);
   }
 }
@@ -564,11 +550,11 @@ ImageToggle
   left: 23vw;
   margin: 0 0.5rem;
   padding: 6px 5px 0;
-  border-radius: 8px;
-  font-size: 1.5rem;
   color: white;
   background: rgba(0, 0, 0, 0.5);
   border-color: transparent;
+  border-radius: 8px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 .prev-btn:hover,
@@ -597,44 +583,41 @@ Project Buttons
   box-shadow: 0 2.5px var(--clr-main-1);
 }
 
-#project-git_button{
+#project-git_button {
   color: var(--clr-font);
-  text-decoration: none;
   transition: var(--transition);
 }
-#project-FaGithub{
-  font-size: 2.25rem;
-  color: var(--clr-font);
+#project-FaGithub {
   vertical-align: middle;
+  color: var(--clr-font);
+  font-size: 2.25rem;
   transition: var(--transition);
 }
-#project-git_button b{
+#project-git_button b {
+  vertical-align: middle;
   margin-left: 15px;
   font-size: 2rem;
   font-weight: 400;
-  vertical-align: middle;
 }
 #project-git_button:hover, 
-#project-git_button:hover #project-FaGithub{
+#project-git_button:hover #project-FaGithub {
   color: var(--clr-main-1);
   text-decoration: underline;
 }
 
-
 .project-company_btn {
-  color: var(--clr-sub-2);
-  background: var(--clr-sub-1);
   display: inline-block;
   padding: 0.35rem 1rem;
-  border-radius: 10px;
   margin: 0 0.75rem 0.75rem 0;
-  text-decoration: none;
+  color: var(--clr-sub-2);
+  background: var(--clr-sub-1);
+  border-radius: 13px;
   font-size: large;
   font-weight: bold;
   transition: var(--transition);
 }
 
-
+/* Embeding video and html */
 .iframeVideo {
   text-align: center;
   padding-bottom: 3rem;
@@ -646,18 +629,19 @@ Footer
 ===============
 */
 footer {
-  background: black;
-  color: white;
   text-align: center;
   padding: 2rem;
-  border-top: 5px solid white;
+  background: black;
+  color: white;
+  border-top: 7px solid var(--clr-footer);
+  transition: var(--transition);
 }
 footer a {
   color: white;
 }
 .footer-links a {
-  font-size: 1.5rem;
   padding: 1rem;
+  font-size: 1.5rem;
   transition: var(--transition);
 }
 footer a:hover {
@@ -674,33 +658,32 @@ footer a:hover {
 Theme Button
 ===============
 */
-.theme-btn{
+.theme-btn {
   position: fixed;
   bottom: 2rem;
   right: 5vw;
   z-index: 1;
-
+  padding: 15px 15px 10px;
   color: white;
   background-color: var(--clr-main-1);
-  cursor: pointer;
-  padding: 15px 15px 10px;
-  font-size: 1.5rem;
   border: none;
   border-radius: 50%;
-  transition: var(--transition);
   box-shadow: 0 5px 10px grey;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: var(--transition);
 }
-.theme-btn:hover{
+.theme-btn:hover {
   background-color: var(--clr-highlight);
 }
 
-.theme-btn-icon{
+.theme-btn-icon {
   animation: blink 4s infinite;
 }
 
 @keyframes blink {
-  0%{   color: white;     }
-  80%{  color: white;     }
-  81%{  color: transparent; }
-  100%{ color: transparent; }
+  0% {   color: white;     }
+  80% {  color: white;     }
+  81% {  color: transparent; }
+  100% { color: transparent; }
 }

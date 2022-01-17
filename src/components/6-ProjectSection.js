@@ -9,9 +9,10 @@ const allCategories = [...new Set(project.map((project) => project.header)), "Al
 const ProjectSection = () => {
   const [category, setCategory] = useState("Web Dev");
 
-  // Render Project if header == category
+
   const renderProjects = () => {
     let content = [];
+
     for(let index = 0; index < project.length; index++){
       if(project[index].header === category || category === "All"){
         content.push(
@@ -20,7 +21,6 @@ const ProjectSection = () => {
               <a id="project-git_button" href={project[index].github} target="_"><FaGithub id='project-FaGithub'/><b>{project[index].title}</b></a>
               <br/>
               <br/>
-              {/* <a className="project-company_btn" href={project[index].github} target="_">{project[index].company}</a> */}
               <h4 className="project-company_btn">{project[index].company}</h4>
               <p className="project-date">{project[index].dates}</p>
               {project[index].duties.map((duty, index) => {
@@ -41,20 +41,22 @@ const ProjectSection = () => {
                 );
               })}
             </div>
+
             {
               project[index].images.length > 0 ? <ImageToggle images={project[index].images}/> : null 
             }
             {
               project[index].video !== "" ? 
-              <div className="iframeVideo">
-                <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)", background: "white"}} title={project[index].video} height="500vh" width="70%" src={project[index].video} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-              </div>
-               : null 
+                <div className="iframeVideo">
+                  <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)", background: "white"}} title={project[index].video} height="500vh" width="70%" src={project[index].video} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
+              : null 
             }
           </div>
         );
       }
     }
+
     return content;
   };
 

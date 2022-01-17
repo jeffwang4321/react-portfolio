@@ -22,15 +22,15 @@ const ImageToggle = (props) => {
 
   return (
     <article className='imageToggle'>
-        <button className='prev-btn' onClick={prevPerson}>
-          <FaChevronLeft />
-        </button>
-        <button className='next-btn' onClick={nextPerson}>
-          <FaChevronRight />
-        </button>
-        <div className='img-container'>
-          <img src={props.images[index]} alt={""} className='person-img' onClick={nextPerson}/>
-        </div>
+      <button className='prev-btn' onClick={prevPerson}>
+        <FaChevronLeft/>
+      </button>
+      <button className='next-btn' onClick={nextPerson}>
+        <FaChevronRight/>
+      </button>
+      <div className='img-container'>
+        <img src={props.images[index]} alt={""} className='person-img' onClick={nextPerson}/>
+      </div>
     </article>
   );
 };

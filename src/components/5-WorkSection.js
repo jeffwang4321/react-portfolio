@@ -5,7 +5,7 @@ import ImageToggle from './ImageToggle';
 
 const WorkSection = () => {
   const [value, setValue] = useState(0);
-  const { company, dates, duties, title, technologies, images } = work[value];
+  const {company, dates, duties, title, technologies, images} = work[value];
 
   return (
     <div id="work">
@@ -51,7 +51,6 @@ const WorkSection = () => {
       {
         images.length > 0 ? <ImageToggle images={images}/> : null 
       }
-      
     </div>
   );
 };

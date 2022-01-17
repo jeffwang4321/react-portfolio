@@ -2,7 +2,7 @@ import React, { useState} from 'react'
 import { social } from './0-Data';
 
 const Footer = () => {
-  const [title, setTitle] = useState("JEFF WANG.")
+  const [title, setTitle] = useState("Jeff Wang.")
   const [subtitle, setSubtitle] = useState("© 2022 All Rights Reserved")
 
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
               target="_"
               className='icon'
               onMouseEnter={() => setTitle(social.header)}
-              onMouseLeave={() => setTitle("JEFF WANG.")}
+              onMouseLeave={() => setTitle("Jeff Wang.")}
             >{social.icon}</a>
           );
         })}

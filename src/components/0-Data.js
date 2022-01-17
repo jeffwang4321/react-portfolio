@@ -189,7 +189,7 @@ export const project = [
     technologies: ["Figma", "Material Design", "Unsplash", "Windows"],
     images: [],
     video: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzCtotsUKgE3fsX04JIoYOZ%2FSFU-Moodle%3Fnode-id%3D1%253A2%26starting-point-node-id%3D1%253A2",
-    github: "",
+    github: "https://www.figma.com/file/zCtotsUKgE3fsX04JIoYOZ/SFU-Moodle?node-id=0%3A1",
   },
   {
     id: 7,

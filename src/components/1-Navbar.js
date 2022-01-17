@@ -27,13 +27,13 @@ const Navbar = () => {
         <div className='nav-header'>
           <h2><span>JEFF</span> WANG.</h2> 
           <button className='nav-toggle' onClick={toggleLinks}>
-            <FaBars />
+            <FaBars/>
           </button>
         </div>
         <div className='links-container' ref={linksContainerRef}>
           <ul className='links' ref={linksRef}>
             {links.map((link) => {
-              const { id, url, text } = link;
+              const {id, url, text} = link;
               return (
                 <li key={id}>
                   <h4>
@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
         <ul className='social-icons'>
           {social.map((socialIcon) => {
-            const { id, url, icon } = socialIcon;
+            const {id, url, icon} = socialIcon;
             return (
               <li key={id}>
                 <a href={url} target="_">{icon}</a>
