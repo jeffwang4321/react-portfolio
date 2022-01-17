@@ -12,10 +12,16 @@
 
 ## Features
 
+- Dark Mode
+![](public/assets/Readme-darkmode.gif)
+
 - Nav Bar and drop down menu
+![](public/assets/Readme-menu.gif)
 
 - Work and Project Tabs
+![](public/assets/Readme-tabs.gif)
 
 - Image gallery
+![](public/assets/Readme-gallery.gif)
 
-- Dark Mode
+
