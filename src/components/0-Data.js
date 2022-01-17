@@ -264,8 +264,9 @@ export const project = [
 
 
 export const workImages = [
-  './assets/rainforest-1.gif',
-  './assets/rainforest-2.gif',
+  './assets/rainforest-1.jpg',
+  './assets/rainforest-2.jpg',
   './assets/rainforest-3.jpg',
+  './assets/rainforest-4.jpg',
   './assets/cleardent-1.jpg',
 ]
