@@ -66,7 +66,9 @@ export const work = [
     ],
     technologies: ["React.js", "Redux.js", "JavaScript", "Cypress", "SASS", "Python", "UNIX",  "XML", "Swagger", "Postman", "Atlassian"],
     images: [
-      './assets/rainforest-3.jpg',
+      // './assets/rainforest-1.gif',
+      // './assets/rainforest-2.gif',
+      // './assets/rainforest-3.jpg',
     ],
   },
   {
@@ -260,3 +262,10 @@ export const project = [
   },
 ]
 
+
+export const workImages = [
+  './assets/rainforest-1.gif',
+  './assets/rainforest-2.gif',
+  './assets/rainforest-3.jpg',
+  './assets/cleardent-1.jpg',
+]
