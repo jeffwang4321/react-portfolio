@@ -153,7 +153,7 @@ export const project = [
     header: "App Dev",
     title: "MiniTasks",
     company: "React Native App - Personal Project",
-    dates: "Duration: 1 Day (Oct 2021)",
+    dates: "Duration: 2 Day (Oct 2021)",
     duties: [
       "Developed a minimalistic and easy to use To Do List app using React Native and deployed using Expo",
       "Utilized persistent storage to store tasks JSON locally within the device",
@@ -265,6 +265,7 @@ export const project = [
 
 export const workImages = [
   './assets/rainforest-1.jpg',
+  './assets/rainforest-1.5.jpg',
   './assets/rainforest-2.jpg',
   './assets/rainforest-3.jpg',
   './assets/rainforest-4.jpg',
