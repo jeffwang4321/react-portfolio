@@ -58,9 +58,10 @@ export const work = [
     title: "Software Developer",
     dates: "Jan 2021 – Sep 2021",
     duties: [
-      "Implemented 3 deliverables for the company portal using React and Redux, developing a pricing graph using Canvas API and storing JSON history cache",
-      "Maintained, updated and debugged React components, Redux stores and optimized AJAX functions, resolving over 40+ JIRA tickets in a 4-month period",
-      "Designed and automated test scripts for UNIX firmware using Python's Fabric library and automated front-end testing using Cypress",
+      "Designed and developed 3 deliverables for the company portal using React and Redux, including a pricing graph using Canvas API and caching history JSON",
+      "Maintained, refactored and debugged React components, Redux states and optimized AJAX functions, resolving over 40+ JIRA tickets in a 4-month period",
+      // "Optimizing AJAX functions to reduced the demand history graph render time by up to 50%",
+      "Designed and automated front-end test scripts using Cypress and UNIX firmware test scripts using Python's Fabric library",
       "Automated REST API tests to monitor cloud health using Postman collections",
       "Troubleshooted UNIX firmware using Bash scripts and XML commands",
     ],
