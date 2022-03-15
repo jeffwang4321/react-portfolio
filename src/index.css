@@ -414,7 +414,7 @@ Work Page
 */
 #work, 
 #projects {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 #work h2, 
 #projects h2 {
@@ -437,7 +437,7 @@ Work Page
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .job-btn,
 .project-btn {
@@ -495,7 +495,7 @@ Work Page
 
 .technologies {
   width: 65vw;
-  margin: 2.5rem auto;
+  margin: 1.5rem auto;
 }
 .technologies h3 {
   margin-bottom: 1rem;
@@ -511,6 +511,10 @@ Work Page
   .btn-container {
     flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: 0rem;
+  }
+  .job-info{
+    margin-bottom: -1rem;
   }
   .job-btn {
     margin-bottom: 1rem;
@@ -530,10 +534,10 @@ ImageToggle
 */
 .imageToggle {
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 .img-container {
-  margin: 0 auto;
+  margin: -3rem auto;
   width: 65vw;
   max-width: 60rem;
   cursor: pointer;
@@ -546,7 +550,7 @@ ImageToggle
 .next-btn {
   position: relative;
   justify-self: right;
-  top: 6vw;
+  top: 2vw;
   left: 23vw;
   margin: 0 0.5rem;
   padding: 6px 5px 0;
@@ -620,7 +624,7 @@ Project Buttons
 /* Embeding video and html */
 .iframeVideo {
   text-align: center;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 /*
