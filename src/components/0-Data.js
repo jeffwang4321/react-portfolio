@@ -52,7 +52,23 @@ export const social = [
 
 export const work = [
   {
-    id: 1,
+    id: 3,
+    header: "PSPC CANADA",
+    company: "Public Services and Procurement Canada",
+    title: "Web Application Developer",
+    // dates: "May 2022 – Aug 2022",
+    dates: "May 2022 – Present",
+    duties: [
+      "Work in Progress...",
+      "Work in Progress...",
+      "Work in Progress...",
+    ],
+    technologies: [".NET Framework", "ASP.NET", "C#", "Microsoft SQL Server", "Vue.js", "Javascript"],
+    images: [
+    ],
+  },
+  {
+    id: 2,
     header: "RAINFOREST",
     company: "Rainforest Automation Inc",
     title: "Software Developer",
@@ -65,7 +81,7 @@ export const work = [
       "Automated REST API tests to monitor cloud health using Postman collections",
       "Troubleshooted UNIX firmware using Bash scripts and XML commands",
     ],
-    technologies: ["React.js", "Redux.js", "JavaScript", "Cypress", "SASS", "Python", "UNIX",  "XML", "Swagger", "Postman", "Atlassian"],
+    technologies: ["React.js", "Redux.js", "Cypress.io", "JavaScript", "REST APIs", "Git", "SASS", "HTML5","Python", "UNIX",  "XML", "Atlassian", "Postman", "Swagger"],
     images: [
       // './assets/rainforest-1.gif',
       // './assets/rainforest-2.gif',
@@ -73,7 +89,7 @@ export const work = [
     ],
   },
   {
-    id: 2,
+    id: 1,
     header: "CLEARDENT",
     company: "Prococious Technology Inc",
     title: "Database Support Technician",
@@ -85,7 +101,7 @@ export const work = [
       "Responsible for regular software updates and SQL Server maintenance",
       "Assisted client technicians with software setup and database migrations",
     ],
-    technologies: ["SQL Server", "SQL Management Studio", "C++", "Excel", "JIRA", "SalesForce", "Visual Studio Code", "ClearDent"],
+    technologies: ["SQL", "Microsoft SQL Server", "SQL Server Management Studio", "C++", "ClearDent", "Windows System Administration", "Excel", "JIRA", "SalesForce", "Visual Studio Code"],
     images: [
       // './assets/cleardent-1.jpg',
       // './assets/cleardent-2.jpg',
