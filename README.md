@@ -1,14 +1,14 @@
 # React Portfolio Website
 
+- Hosted: https://jeffwang.netlify.app/
+
 - Developed a responsive portfolio website using React & JavaScript to match my previous website design
 
 - Experienced the complete design process from conceptualization to delivery
 
 - Incorporated icon libraries and JavaScript in order to enhance user experiences and visual appeal
 
-- Hosted: https://jeffwang.netlify.app/
-
-- Previous website: https://jeffwang4321.github.io/
+- Previous version: https://github.com/jeffwang4321/jeffwang4321.github.io
 
 ## Features
 
