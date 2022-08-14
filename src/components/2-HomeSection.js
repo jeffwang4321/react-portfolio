@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import '../styles/2-HomeSection.css'
 
 const HomeSection = () => {
   return (

@@ -1,0 +1,19 @@
+/*
+=============== 
+AboutPage
+===============
+*/
+#about {
+  padding-top: 5rem;
+  text-align: center;  
+}
+#about h3 {
+  margin: 0 auto 1rem;
+  width: 180px;
+  color: var(--clr-main-1);
+  border-bottom: 3px solid var(--clr-main-1);
+  font-size: 2rem;
+}
+#about p {
+  padding: 1rem 25%;
+}

@@ -1,0 +1,59 @@
+/*
+=============== 
+Project Section
+===============
+*/
+.project-info {
+  margin: 2rem auto 0;
+  width: 70vw;
+}
+.project-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-active-btn {
+  color: var(--clr-main-1);
+  box-shadow: 0 2.5px var(--clr-main-1);
+}
+
+#project-git_button {
+  color: var(--clr-font);
+  transition: var(--transition);
+}
+#project-FaGithub {
+  vertical-align: middle;
+  color: var(--clr-font);
+  font-size: 2.25rem;
+  transition: var(--transition);
+}
+#project-git_button b {
+  vertical-align: middle;
+  margin-left: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+#project-git_button:hover, 
+#project-git_button:hover #project-FaGithub {
+  color: var(--clr-main-1);
+  text-decoration: underline;
+}
+
+.project-company_btn {
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  margin: 0 0.75rem 0.75rem 0;
+  color: var(--clr-sub-2);
+  background: var(--clr-sub-1);
+  border-radius: 13px;
+  font-size: large;
+  font-weight: bold;
+  transition: var(--transition);
+}
+
+/* Embeding video and html */
+.iframeVideo {
+  text-align: center;
+  padding-bottom: 1rem;
+}

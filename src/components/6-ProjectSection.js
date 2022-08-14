@@ -3,6 +3,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { project } from "./0-Data";
 import ImageToggle from './ImageToggle';
 import { FaGithub } from 'react-icons/fa';
+import '../styles/6-ProjectSection.css'
 
 const allCategories = [...new Set(project.map((project) => project.header)), "All"];
 

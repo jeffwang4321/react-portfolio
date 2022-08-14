@@ -1,0 +1,54 @@
+/*
+=============== 
+HomePage
+===============
+*/
+#home {
+  padding-top: 5.5rem;
+  text-align: center;  
+}
+#home img {
+  height: 18rem;
+  width: 18rem;
+  border-radius: 50%;
+}
+#home h4 {
+  margin: 1.5rem;
+  font-size: 3rem;
+}
+
+#home_buttons {
+  margin-top: 2rem;
+}
+#resume_button {
+  padding: 10px 20px;
+  background-color: var(--clr-main-1);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+#resume_button:hover {
+  background-color: var(--clr-highlight);
+}
+
+#git_button {
+  margin-left: 30px;
+  color: var(--clr-font);
+  transition: var(--transition);
+}
+#FaGithub {
+  margin-right: 8px;
+  vertical-align: middle;
+  color: var(--clr-font);
+  font-size: 2.25rem;
+  transition: var(--transition);
+}
+#git_button b {
+  vertical-align: middle;
+}
+#git_button:hover, 
+#git_button:hover #FaGithub {
+  color: var(--clr-highlight);
+}

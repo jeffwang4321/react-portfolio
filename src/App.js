@@ -6,7 +6,7 @@ import SkillsSection from './components/4-SkillsSection';
 import WorkSection from './components/5-WorkSection';
 import ProjectSection from './components/6-ProjectSection';
 import Footer from './components/7-Footer';
-import ThemeButton from './components/8-ThemeButton';
+import ThemeButton from './components/ThemeButton';
 import ImageToggle from './components/ImageToggle';
 import { workImages } from "./components/0-Data";
 

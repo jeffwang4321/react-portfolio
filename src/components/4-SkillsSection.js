@@ -2,6 +2,7 @@ import React from 'react';
 import { FaPython, FaNodeJs } from 'react-icons/fa';
 import { SiCplusplus } from 'react-icons/si';
 import { BiPencil } from "react-icons/bi";
+import '../styles/4-SkillsSection.css'
 
 const SkillsSection = () => {
   return (

@@ -2,6 +2,7 @@ import React, { useState} from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { work } from "./0-Data";
 import ImageToggle from './ImageToggle';
+import '../styles/5-WorkSection.css'
 
 const WorkSection = () => {
   const [value, setValue] = useState(0);

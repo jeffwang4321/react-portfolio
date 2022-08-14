@@ -1,0 +1,38 @@
+/*
+=============== 
+ImageToggle
+===============
+*/
+.imageToggle {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.img-container {
+  margin: -3rem auto;
+  width: 65vw;
+  max-width: 60rem;
+  cursor: pointer;
+}
+.person-img {
+  width: 100%;
+  height: 100%; 
+}
+.prev-btn,
+.next-btn {
+  position: relative;
+  justify-self: right;
+  top: 2vw;
+  left: 23vw;
+  margin: 0 0.5rem;
+  padding: 6px 5px 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-color: transparent;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}

@@ -1,5 +1,6 @@
 import React, { useState} from 'react'
 import { social } from './0-Data';
+import '../styles/7-Footer.css'
 
 const Footer = () => {
   const [title, setTitle] = useState("Jeff Wang.")

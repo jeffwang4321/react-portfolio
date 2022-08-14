@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { links, social } from './0-Data';
+import '../styles/1-Navbar.css';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);

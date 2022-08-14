@@ -1,0 +1,144 @@
+/*
+=============== 
+Skills and Profile Section
+===============
+*/
+
+/* Profile Section */
+.skills {
+  display: flex;
+  padding: 3rem 15% 0;
+}
+.column {
+  flex: 50%;
+}
+.info-list {
+  margin-top: 0.6rem;
+}
+.info-list li {
+  padding: 1.4rem 0;
+}
+li a {
+  color: var(--clr-main-1);
+  transition: var(--transition);
+}
+li a:hover {
+  color:  var(--clr-highlight);
+}
+.skills-button {
+  text-align: center;
+}
+
+/* Skillbars Section */
+.skill-bars {
+  padding: 3rem 0 0;
+}
+.skill-bars li {
+  position: relative;
+  height: 7px;
+  width: 100%;
+  margin-bottom: 3.5rem;
+  background: grey;
+}
+.skill-bars li strong {
+  position: absolute;
+  top: -30px;
+  left: 40px;
+  color: var(--clr-font);
+  transition: var(--transition);
+}
+.skill-bars li #icons{   
+  position: absolute;
+  color: var(--clr-font);
+  top: -36px;
+  font-size: 2rem;
+  transition: var(--transition);
+}
+.skill-bars li .progress {
+  position: relative;
+  height: 100%;
+  background: var(--clr-font);
+  transition: var(--transition);
+}
+
+/* Chat bubbles */
+.skill-bars li .progress span {
+  position: absolute;
+  right: -17px;
+  top: -40px;
+  padding: 5px 10px;
+  color: var(--clr-bg-1);
+  background: var(--clr-font);
+  border-radius: 3px;
+  font-size: 14px;
+  transition: var(--transition);
+}
+.skill-bars li .progress span::after {
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 5px solid var(--clr-font);
+  content: "";
+  transition: var(--transition);
+}
+.skill-bars li .percent80 { width: 91%; }
+.skill-bars li .percent85 { width: 93%; }
+.skill-bars li .percent90 { width: 95%; }
+.skill-bars li .percent95 { width: 97%; }
+
+/* Remove Chat bubbles */
+@media only screen and (max-width : 995px){
+  .skill-bars li .progress span {
+    color: transparent;
+    background: transparent;
+  }
+  .skill-bars li .progress span::after {
+    border: none;
+  }
+}
+
+/* Shift SkillsSection into 1 column and show Chat bubbles again */
+@media only screen and (max-width : 815px){
+  #about p {
+    padding: 1rem 15%;
+  }
+
+  .skills {
+    display: block;
+    padding: 0 15%;
+  }
+  .column {
+    margin-top: 3rem;
+  }
+
+  .skill-bars li .progress span {
+    color: var(--clr-bg-1);
+    background: var(--clr-font);
+  }
+  .skill-bars li .progress span::after {
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid var(--clr-font);
+  }
+}
+
+/* Remove Chat bubbles */
+@media only screen and (max-width : 500px){
+  .skill-bars li .progress span {
+    color: transparent;
+    background: transparent;
+  }
+  .skill-bars li .progress span::after {
+    border: none;
+  }
+}
+
+/* Remove Skills Text*/
+@media only screen and (max-width : 375px){
+  .skill-bars li strong {
+    top: -28px;
+    font-size: 13px;
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { RiSunFill } from 'react-icons/ri';
+import '../styles/ThemeButton.css'
 
 const ThemeButton = () => {
   const [theme, setTheme] = useState('light-theme');

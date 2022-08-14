@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import '../styles/ImageToggle.css'
 
 const ImageToggle = (props) => {
   const [index, setIndex] = useState(0);
