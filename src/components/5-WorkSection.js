@@ -5,7 +5,7 @@ import ImageToggle from './ImageToggle';
 import '../styles/5-WorkSection.css'
 
 const WorkSection = () => {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(1); // Set to Rainforest (index 1)
   const {company, dates, duties, title, technologies, images} = work[value];
 
   return (

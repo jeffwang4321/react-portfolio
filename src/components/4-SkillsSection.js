@@ -17,12 +17,12 @@ const SkillsSection = () => {
             <span> &#160; Jeff Wang</span>
           </li>
           <li>
-            <strong>Education:</strong>
-            <span> &#160; Simon Fraser University</span>
+            <strong>Major:</strong>
+            <span> &#160; BSc Computing Science</span>
           </li>
           <li>
-            <strong>Major:</strong>
-            <span> &#160; Computing Science</span>
+            <strong>Education:</strong>
+            <span> &#160; Simon Fraser University</span>
           </li>
           <li>
             <strong>Email:</strong>
