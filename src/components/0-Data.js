@@ -75,7 +75,7 @@ export const work = [
     duties: [
       "Developed, refactored, and optimized React components, JavaScript functions, and AJAX promises. Resolving over 40+ JIRA tickets in a 4-month period",
       "Implemented a pricing graph feature using Canvas API and optimized JSON history using Redux states",
-      "Reduced the demand history graph's render time by 80% by implementing Redux caching",
+      "Reduced the demand history graph's render time by 80% from 5s to 1s by implementing Redux caching",
       "Developed the inactivity timeout function that automatically logs off the user after a set period of time",
       "Designed and automated frontend testing using Cypress and firmware testing using Python's Fabric library",
       "Automated REST API testing to monitor cloud health using Postman collections and environments",
