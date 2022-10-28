@@ -9,6 +9,7 @@ import Footer from './components/7-Footer';
 import ThemeButton from './components/ThemeButton';
 import ImageToggle from './components/ImageToggle';
 import { workImages } from "./components/0-Data";
+import { workSubtitles } from "./components/0-Data";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <AboutSection/>
       <SkillsSection/>
       <WorkSection/>
-      <ImageToggle images={workImages}/>
+      <ImageToggle images={workImages} subtitles={workSubtitles}/>
       <ProjectSection/>
       <Footer/>
       <ThemeButton/>

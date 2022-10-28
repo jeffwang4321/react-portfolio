@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight, FaAngleDoubleRight } from 'react-icons/fa';
 import '../styles/ImageToggle.css'
 
 const ImageToggle = (props) => {
   const [index, setIndex] = useState(0);
 
-  const nextPerson = () => {
+  const nextImage = () => {
     let newIndex = index + 1;
     if (newIndex > props.images.length - 1) {
       newIndex = 0
@@ -13,7 +13,7 @@ const ImageToggle = (props) => {
     setIndex(newIndex);
   };
 
-  const prevPerson = () => {
+  const prevImage = () => {
     let newIndex = index - 1
       if (newIndex < 0) {
         newIndex = props.images.length - 1
@@ -22,15 +22,16 @@ const ImageToggle = (props) => {
   };
 
   return (
-    <article className='imageToggle'>
-      <button className='prev-btn' onClick={prevPerson}>
+    <article className='imageToggle' id="sample">
+      <button className='prev-btn' onClick={prevImage}>
         <FaChevronLeft/>
       </button>
-      <button className='next-btn' onClick={nextPerson}>
+      <button className='next-btn' onClick={nextImage}>
         <FaChevronRight/>
       </button>
       <div className='img-container'>
-        <img src={props.images[index]} alt={""} className='person-img' onClick={nextPerson}/>
+        <img src={props.images[index]} alt={""} className='work-img' onClick={nextImage}/>
+        <p className='img-subtitle'><FaAngleDoubleRight className="job-icon"/>{props.subtitles[index]}</p>
       </div>
     </article>
   );
