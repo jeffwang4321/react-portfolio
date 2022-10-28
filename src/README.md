@@ -4,9 +4,11 @@
 Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters
 <br>
 <br>
+<br>
 
 <img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/PSPC-2.JPG" width="700"/>
 Developed the database tabs and filtering feature handling Esquimalt Graving Dock billing transactions
+<br>
 <br>
 <br>
 
@@ -15,9 +17,11 @@ Developed the database tabs and filtering feature handling Esquimalt Graving Doc
 Reduced the demand history graph's render time by 80% from 5s to 1s by implementing Redux caching
 <br>
 <br>
+<br>
 
 <img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/rainforest-1.5.jpg" width="700"/>
 Implemented the pricing graph feature using Canvas API and optimized JSON history using Redux states
+<br>
 <br>
 <br>
 
@@ -25,14 +29,17 @@ Implemented the pricing graph feature using Canvas API and optimized JSON histor
 Optimized the weekly demand history graph's render time by 50% by plotting 60m intervals instead of 15m
 <br>
 <br>
+<br>
 
 <img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/rainforest-3.jpg" width="700"/>
 Devloped the Edit Device Modal thats configues device information and POST API request to cloud DB
 <br>
 <br>
+<br>
 
 <img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/rainforest-4.jpg" width="700"/>
 Updated, troubleshooted, and reprogrammed UNIX firmware using Bash scripts and XML commands
+<br>
 <br>
 <br>
 
