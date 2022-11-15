@@ -44,7 +44,7 @@ const ProjectSection = () => {
             </div>
 
             {
-              project[index].images.length > 0 ? <ImageToggle images={project[index].images}/> : null 
+              project[index].images.length > 0 ? <ImageToggle images={project[index].images} subtitles={{}}/> : null 
             }
             {
               project[index].video !== "" ? 

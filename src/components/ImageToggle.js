@@ -31,7 +31,9 @@ const ImageToggle = (props) => {
       </button>
       <div className='img-container'>
         <img src={props.images[index]} alt={""} className='work-img' onClick={nextImage}/>
-        <p className='img-subtitle'><FaAngleDoubleRight className="job-icon"/>{props.subtitles[index]}</p>
+        {
+          props.subtitles.length > 0 ? <p className='img-subtitle'><FaAngleDoubleRight className="job-icon"/>{props.subtitles[index]}</p> : null 
+        }
       </div>
     </article>
   );
