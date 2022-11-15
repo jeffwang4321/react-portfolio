@@ -25,14 +25,14 @@ Implemented the pricing graph feature using Canvas API and optimized JSON histor
 <br>
 <br>
 
-<img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/rainforest-2.jpg" width="700"/>
+<img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/rainforest-1.gif" width="700"/>
 Optimized the weekly demand history graph's render time by 50% by plotting 60m intervals instead of 15m
 <br>
 <br>
 <br>
 
-<img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/rainforest-3.jpg" width="700"/>
-Devloped the Edit Device Modal thats configues device information and POST API request to cloud DB
+<img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/rainforest-2.gif" width="700"/>
+Developed the Edit Device Modal that configures device information and POST API request to cloud DB
 <br>
 <br>
 <br>
