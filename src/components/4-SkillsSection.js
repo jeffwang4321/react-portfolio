@@ -36,22 +36,22 @@ const SkillsSection = () => {
         <h2>Skills</h2>
         <ul className="skill-bars">
           <li>
-            <div className="progress percent85"><span>Every Day</span></div>
+            <div className="progress percent1"><span>Every Day</span></div>
             <FaPython id="icons"/>
             <strong>Python, NumPy, Pandas</strong>
           </li>
           <li>
-            <div className="progress percent80"><span>Well Acquainted</span></div>
+            <div className="progress percent2"><span>Well Acquainted</span></div>
             <SiCplusplus id="icons"/>
             <strong>C, C++, C#</strong>
           </li>
           <li>
-            <div className="progress percent90"><span>Love It</span></div>
+            <div className="progress percent3"><span>Love It</span></div>
             <FaNodeJs id="icons"/>
             <strong>JavaScript, Node.js, React</strong>
           </li>
           <li>
-            <div className="progress percent95"><span>Having Fun</span></div>
+            <div className="progress percent4"><span>Having Fun</span></div>
             <BiPencil id="icons"/>
             <strong>UX/UI Design, Film Editing </strong>
           </li>

@@ -83,10 +83,10 @@ li a:hover {
   content: "";
   transition: var(--transition);
 }
-.skill-bars li .percent80 { width: 91%; }
-.skill-bars li .percent85 { width: 93%; }
-.skill-bars li .percent90 { width: 95%; }
-.skill-bars li .percent95 { width: 97%; }
+.skill-bars li .percent1 { width: 96%; }
+.skill-bars li .percent2 { width: 95%; }
+.skill-bars li .percent3 { width: 98%; }
+.skill-bars li .percent4 { width: 99%; }
 
 /* Remove Chat bubbles */
 @media only screen and (max-width : 995px){
