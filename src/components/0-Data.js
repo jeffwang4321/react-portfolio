@@ -1,51 +1,51 @@
-import React from 'react';
-import { FaRegEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import React from "react";
+import { FaRegEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const links = [
   {
     id: 1,
-    url: '#home',
-    text: 'Home',
+    url: "#home",
+    text: "Home",
   },
   {
     id: 2,
-    url: '#about',
-    text: 'About',
+    url: "#about",
+    text: "About",
   },
   {
     id: 3,
-    url: '#work',
-    text: 'Work',
+    url: "#work",
+    text: "Work",
   },
   {
     id: 4,
-    url: '#projects',
-    text: 'Projects',
+    url: "#projects",
+    text: "Projects",
   },
   {
     id: 5,
-    url: '#contact',
-    text: 'Contact',
+    url: "#contact",
+    text: "Contact",
   },
 ];
 
 export const social = [
   {
     id: 1,
-    url: 'mailto:jeffwang4321@gmail.com',
-    icon: <FaRegEnvelope/>,
+    url: "mailto:jeffwang4321@gmail.com",
+    icon: <FaRegEnvelope />,
     header: "jeffwang4321@gmail.com",
   },
   {
     id: 2,
-    url: 'https://github.com/jeffwang4321',
-    icon: <FaGithub/>,
+    url: "https://github.com/jeffwang4321",
+    icon: <FaGithub />,
     header: "github.com/jeffwang4321",
   },
   {
     id: 3,
-    url: 'https://www.linkedin.com/in/jw4321/',
-    icon: <FaLinkedin/>,
+    url: "https://www.linkedin.com/in/jw4321/",
+    icon: <FaLinkedin />,
     header: "linkedin.com/in/jw4321",
   },
 ];
@@ -62,9 +62,22 @@ export const work = [
       "Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters",
       "Refactored MVC architecture, implemented business billing logic, and automated database scripting in PHP",
     ],
-    technologies: ["ASP.NET Core", "C#", "Vue.js", "Javascript", "Typescript", "jQuery", "HTML/CSS", "AJAX", "PHP", "Microsoft SQL Server", "SSMS",  ".NET Framework", "MVC Architecture"],
-    images: [
+    technologies: [
+      "ASP.NET Core",
+      "C#",
+      "Vue.js",
+      "Javascript",
+      "Typescript",
+      "jQuery",
+      "HTML/CSS",
+      "AJAX",
+      "PHP",
+      "Microsoft SQL Server",
+      "SSMS",
+      ".NET Framework",
+      "MVC Architecture",
     ],
+    images: [],
   },
   {
     id: 1,
@@ -81,7 +94,23 @@ export const work = [
       "Automated REST API performance testing to monitor cloud health using Postman collections and environments",
       "Updated, troubleshooted, and reprogrammed UNIX firmware using CMD, Bash scripts, and XML commands",
     ],
-    technologies: ["React.js", "Redux.js", "Cypress.io", "JavaScript", "REST APIs", "AWS", "SASS", "HTML5","Python", "LINUX", "UNIX",  "XML", "Atlassian", "Postman", "Swagger"],
+    technologies: [
+      "React.js",
+      "Redux.js",
+      "Cypress.io",
+      "JavaScript",
+      "REST APIs",
+      "AWS",
+      "SASS",
+      "HTML5",
+      "Python",
+      "LINUX",
+      "UNIX",
+      "XML",
+      "Atlassian",
+      "Postman",
+      "Swagger",
+    ],
     images: [
       // './assets/rainforest-1.gif',
       // './assets/rainforest-2.gif',
@@ -99,14 +128,25 @@ export const work = [
       "Maintained, debugged and applied schema updates to SQL Servers using SQL Server Management Studio",
       "Performed cloud database setup, backups, and automated integrity testing on DB backups using C++",
     ],
-    technologies: ["SQL", "Microsoft SQL Server", "SQL Server Management Studio", "C++", "ClearDent", "Windows System Administration", "Excel", "JIRA", "SalesForce", "Visual Studio Code"],
+    technologies: [
+      "SQL",
+      "Microsoft SQL Server",
+      "SQL Server Management Studio",
+      "C++",
+      "ClearDent",
+      "Windows System Administration",
+      "Excel",
+      "JIRA",
+      "SalesForce",
+      "Visual Studio Code",
+    ],
     images: [
       // './assets/cleardent-1.jpg',
       // './assets/cleardent-2.jpg',
       // './assets/cleardent-3.jpg',
     ],
   },
-]
+];
 
 export const project = [
   {
@@ -121,7 +161,16 @@ export const project = [
       "Organized client connections into unique game rooms where individual rooms can run asynchronously",
       "Implemented real-time communication between the client-server environment using TCP web sockets",
     ],
-    technologies: ["Node.js", "Express.js", "Socket.io", "TCP", "JavaScript", "HTML", "CSS", "Heroku"],
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "TCP",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Heroku",
+    ],
     images: [],
     video: "https://www.youtube.com/embed/f04S7N4gTlE",
     github: "https://github.com/jeffwang4321/IO-Games",
@@ -138,7 +187,7 @@ export const project = [
       "Incorporated icon libraries and JavaScript in order to enhance user experiences and visual appeal",
       "You are currently viewing my Personal Website 😊",
     ],
-    technologies: ["React.js", "JavaScript", "HTML5", "CSS3", "Git","Netlify"],
+    technologies: ["React.js", "JavaScript", "HTML5", "CSS3", "Git", "Netlify"],
     images: [
       // './assets/Readme-darkmode.gif',
       // './assets/Readme-menu.gif',
@@ -176,7 +225,13 @@ export const project = [
       "Application can create, modify & delete custom tasks as well as sort tasks by due dates and task color",
       "Out on Google Play Store! 🤍",
     ],
-    technologies: ["React Native", "Expo Go", "JavaScript", "AsyncStorage", "Google Play Console"],
+    technologies: [
+      "React Native",
+      "Expo Go",
+      "JavaScript",
+      "AsyncStorage",
+      "Google Play Console",
+    ],
     images: [],
     video: "https://www.youtube.com/embed/yPC58yBRJiU",
     github: "https://github.com/jeffwang4321/minitasks",
@@ -193,7 +248,14 @@ export const project = [
       "Implemented persistent storage and Cloud DB using Google Firebase, syncing offline statistics and history",
       "Focused on agile methodology, performed weekly sprints, meetings and ensured regular deliverable",
     ],
-    technologies: ["XCode", "Swift", "Google FireBase", "CocoaPods", "Mac OS", "iOS"],
+    technologies: [
+      "XCode",
+      "Swift",
+      "Google FireBase",
+      "CocoaPods",
+      "Mac OS",
+      "iOS",
+    ],
     images: [],
     video: "https://www.youtube.com/embed/CmiQvYa9JJk",
     github: "https://github.com/trtri2/FirstBite",
@@ -211,8 +273,10 @@ export const project = [
     ],
     technologies: ["Figma", "Material Design", "Unsplash", "Windows"],
     images: [],
-    video: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzCtotsUKgE3fsX04JIoYOZ%2FSFU-Moodle%3Fnode-id%3D1%253A2%26starting-point-node-id%3D1%253A2",
-    github: "https://www.figma.com/file/zCtotsUKgE3fsX04JIoYOZ/SFU-Moodle?node-id=0%3A1",
+    video:
+      "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzCtotsUKgE3fsX04JIoYOZ%2FSFU-Moodle%3Fnode-id%3D1%253A2%26starting-point-node-id%3D1%253A2",
+    github:
+      "https://www.figma.com/file/zCtotsUKgE3fsX04JIoYOZ/SFU-Moodle?node-id=0%3A1",
   },
   {
     id: 7,
@@ -229,10 +293,10 @@ export const project = [
     ],
     technologies: ["Python", "SQLite", "Ubuntu", "WSL"],
     images: [
-      './assets/library-1.jpg',
-      './assets/library-2.jpg',
-      './assets/library-3.jpg',
-      './assets/library-4.jpg',
+      "./assets/library-1.jpg",
+      "./assets/library-2.jpg",
+      "./assets/library-3.jpg",
+      "./assets/library-4.jpg",
     ],
     video: "",
     github: "https://github.com/jeffwang4321/Library-Database",
@@ -251,12 +315,13 @@ export const project = [
     ],
     technologies: ["Python", "Ubuntu", "WSL"],
     images: [
-      './assets/reversi-1.jpg',
-      './assets/reversi-2.jpg',
-      './assets/reversi-3.jpg',
+      "./assets/reversi-1.jpg",
+      "./assets/reversi-2.jpg",
+      "./assets/reversi-3.jpg",
     ],
     video: "",
-    github: "https://github.com/jeffwang4321/Artificial-Intelligence-Survey/tree/main/Reversi%20AI",
+    github:
+      "https://github.com/jeffwang4321/Artificial-Intelligence-Survey/tree/main/Reversi%20AI",
   },
   {
     id: 9,
@@ -273,21 +338,21 @@ export const project = [
     technologies: ["C", "Ubuntu", "WSL"],
     images: [],
     video: "",
-    github: "https://github.com/jeffwang4321/Operating-Systems/tree/master/Prj3%20-%20Threads%20%26%20Buffer",
+    github:
+      "https://github.com/jeffwang4321/Operating-Systems/tree/master/Prj3%20-%20Threads%20%26%20Buffer",
   },
-]
-
+];
 
 export const workImages = [
-  './assets/PSPC-1.jpg',
-  './assets/PSPC-2.jpg',
-  './assets/rainforest-1.jpg',
-  './assets/rainforest-1.5.jpg',
-  './assets/rainforest-2.jpg',
-  './assets/rainforest-3.jpg',
-  './assets/rainforest-4.jpg',
-  './assets/cleardent-1.jpg',
-]
+  "./assets/PSPC-1.jpg",
+  "./assets/PSPC-2.jpg",
+  "./assets/rainforest-1.jpg",
+  "./assets/rainforest-1.5.jpg",
+  "./assets/rainforest-2.jpg",
+  "./assets/rainforest-3.jpg",
+  "./assets/rainforest-4.jpg",
+  "./assets/cleardent-1.jpg",
+];
 
 export const workSubtitles = [
   " Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters",
@@ -295,7 +360,7 @@ export const workSubtitles = [
   " Reduced the demand history graph's render time by 80% from 5s to 1s by implementing Redux caching",
   " Implemented the pricing graph feature using Canvas API and optimized JSON history using Redux states",
   " Optimized the weekly demand history graph's render time by 50% by plotting 60m intervals instead of 15m",
-  ' Devloped the Edit Device Modal thats configues device information and POST API request to cloud DB',
-  ' Updated, troubleshooted, and reprogrammed UNIX firmware using Bash scripts and XML commands',
-  ' Maintained, debugged and applied schema updates to SQL Servers using SQL Server Management Studio',
-]
+  " Developed the Edit Device Dashboard that configures device information and POST API request to cloud DB",
+  " Updated, troubleshooted, and reprogrammed UNIX firmware using Bash scripts and XML commands",
+  " Maintained, debugged and applied schema updates to SQL Servers using SQL Server Management Studio",
+];
