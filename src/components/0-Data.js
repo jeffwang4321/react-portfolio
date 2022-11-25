@@ -56,7 +56,7 @@ export const work = [
     header: "GOV CANADA",
     company: "Government of Canada (PSPC)",
     title: "Web Application Developer, Co-op",
-    dates: "Jun 2022 – Sep 2022",
+    dates: "May 2022 – Sep 2022",
     duties: [
       " Developed and optimized 4 enterprise-level web applications for the Canadian government, handling over $945 million in transactions and annual gross using C#, ASP.NET Core, Vue.js, TypeScript, CSS, MS SQL and jQuery",
       "Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters",
