@@ -52,13 +52,29 @@ export const social = [
 
 export const work = [
   {
-    id: 0,
+    id: 4,
+    header: "RBC",
+    company: "Royal Bank of Canada",
+    title: "Site Reliability Developer",
+    dates: "Jan 2023 – Present",
+    duties: [
+      "...",
+      "..."
+    ],
+    technologies: [
+      "...",
+      "..."
+    ],
+    images: [],
+  },
+  {
+    id: 3,
     header: "GOV CANADA",
     company: "Government of Canada (PSPC)",
     title: "Web Application Developer, Co-op",
     dates: "May 2022 – Sep 2022",
     duties: [
-      " Developed and optimized 4 enterprise-level web applications for the Canadian government, handling over $945 million in transactions and annual gross using C#, ASP.NET Core, Vue.js, TypeScript, CSS, MS SQL and jQuery",
+      "Developed and optimized 4 enterprise-level web applications for the Canadian government, handling over $945 million in transactions and annual gross using C#, ASP.NET Core, Vue.js, TypeScript, CSS, MS SQL and jQuery",
       "Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters",
       "Refactored MVC architecture, implemented business billing logic, and automated database scripting in PHP",
     ],
@@ -80,7 +96,7 @@ export const work = [
     images: [],
   },
   {
-    id: 1,
+    id: 2,
     header: "RAINFOREST",
     company: "Rainforest Automation Inc",
     title: "Software Developer, Co-op",
@@ -118,7 +134,7 @@ export const work = [
     ],
   },
   {
-    id: 2,
+    id: 1,
     header: "CLEARDENT",
     company: "Prococious Technology Inc",
     title: "Database Support Technician, Co-op",
