@@ -23,7 +23,7 @@ li a {
   transition: var(--transition);
 }
 li a:hover {
-  color:  var(--clr-highlight);
+  color: var(--clr-highlight);
 }
 .skills-button {
   text-align: center;
@@ -47,7 +47,7 @@ li a:hover {
   color: var(--clr-font);
   transition: var(--transition);
 }
-.skill-bars li #icons{   
+.skill-bars li #icons {
   position: absolute;
   color: var(--clr-font);
   top: -36px;
@@ -83,13 +83,21 @@ li a:hover {
   content: "";
   transition: var(--transition);
 }
-.skill-bars li .percent1 { width: 96%; }
-.skill-bars li .percent2 { width: 95%; }
-.skill-bars li .percent3 { width: 98%; }
-.skill-bars li .percent4 { width: 99%; }
+.skill-bars li .percent1 {
+  width: 96%;
+}
+.skill-bars li .percent2 {
+  width: 95%;
+}
+.skill-bars li .percent3 {
+  width: 98%;
+}
+.skill-bars li .percent4 {
+  width: 99%;
+}
 
 /* Remove Chat bubbles */
-@media only screen and (max-width : 995px){
+@media only screen and (max-width: 995px) {
   .skill-bars li .progress span {
     color: transparent;
     background: transparent;
@@ -100,7 +108,7 @@ li a:hover {
 }
 
 /* Shift SkillsSection into 1 column and show Chat bubbles again */
-@media only screen and (max-width : 815px){
+@media only screen and (max-width: 815px) {
   #about p {
     padding: 1rem 15%;
   }
@@ -125,7 +133,7 @@ li a:hover {
 }
 
 /* Remove Chat bubbles */
-@media only screen and (max-width : 500px){
+@media only screen and (max-width: 500px) {
   .skill-bars li .progress span {
     color: transparent;
     background: transparent;
@@ -136,7 +144,7 @@ li a:hover {
 }
 
 /* Remove Skills Text*/
-@media only screen and (max-width : 375px){
+@media only screen and (max-width: 375px) {
   .skill-bars li strong {
     top: -28px;
     font-size: 13px;

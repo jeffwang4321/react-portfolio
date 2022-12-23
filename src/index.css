@@ -7,7 +7,7 @@ Global Color Themes
   --clr-bg-1: black;
   --clr-highlight: #334168;
 
-  --clr-main-1: #4070F4; 
+  --clr-main-1: #4070f4;
   --clr-main-2: #334168;
 
   --clr-sub-1: #334168;
@@ -23,8 +23,8 @@ Global Color Themes
   --clr-bg-1: white;
   --clr-highlight: #657d98;
 
-  --clr-main-1: #4070F4; 
-  --clr-main-2: #F4F7FF;
+  --clr-main-1: #4070f4;
+  --clr-main-2: #f4f7ff;
 
   --clr-sub-1: #dae2ec;
   --clr-sub-2: #657d98;
@@ -35,8 +35,6 @@ Global Color Themes
   --clr-dropshadow: rgba(0, 0, 0, 0.2);
   --transition: all 0.3s linear;
 }
-
-
 
 /*
 =============== 
@@ -52,7 +50,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--clr-font);
   background: var(--clr-bg-1);
   transition: var(--transition);
@@ -74,7 +72,7 @@ a {
 }
 ::-webkit-scrollbar-thumb {
   background: darkgrey;
-} 
+}
 ::-webkit-scrollbar-thumb:hover {
   background: grey;
 }

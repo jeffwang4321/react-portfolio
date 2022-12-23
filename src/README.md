@@ -1,5 +1,7 @@
-#  Work Samples
+# Work Samples
+
 ## Government of Canada
+
 <img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/PSPC-1.JPG" width="700"/>
 Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters
 <br>
@@ -13,6 +15,7 @@ Developed the database tabs and filtering feature handling Esquimalt Graving Doc
 <br>
 
 ## Rainforest Automation Inc
+
 <img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/rainforest-1.jpg" width="700"/>
 Reduced the demand history graph's render time by 80% from 5s to 1s by implementing Redux caching
 <br>
@@ -44,5 +47,6 @@ Updated, troubleshooted, and reprogrammed UNIX firmware using Bash scripts and X
 <br>
 
 ## Prococious Technology Inc
+
 <img src="https://raw.githubusercontent.com/jeffwang4321/react-portfolio/main/public/assets/cleardent-1.jpg" width="700"/>
 Maintained, debugged and applied schema updates to SQL Servers using SQL Server Management Studio

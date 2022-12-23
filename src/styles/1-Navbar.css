@@ -9,7 +9,7 @@ h2 span {
 nav {
   position: fixed;
   top: 0;
-  width:100%;
+  width: 100%;
   z-index: 1;
   background: var(--clr-main-2);
   box-shadow: 0 5px 15px var(--clr-dropshadow);

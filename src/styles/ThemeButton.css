@@ -27,8 +27,16 @@ Theme Button
 }
 
 @keyframes blink {
-  0% {   color: white;     }
-  80% {  color: white;     }
-  81% {  color: transparent; }
-  100% { color: transparent; }
+  0% {
+    color: white;
+  }
+  80% {
+    color: white;
+  }
+  81% {
+    color: transparent;
+  }
+  100% {
+    color: transparent;
+  }
 }

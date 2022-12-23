@@ -34,10 +34,10 @@ Project Section
   font-size: 2rem;
   font-weight: 400;
 }
-#project-git_button:hover, 
+#project-git_button:hover,
 #project-git_button:hover #project-FaGithub {
   color: var(--clr-main-1);
-  text-shadow:0px 0px 7px var(--clr-main-2);
+  text-shadow: 0px 0px 7px var(--clr-main-2);
 }
 
 .project-company_btn {

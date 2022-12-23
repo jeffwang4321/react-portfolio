@@ -1,29 +1,38 @@
-import React, { useState} from 'react'
-import { social } from './0-Data';
-import '../styles/7-Footer.css'
+import React, { useState } from "react";
+import { social } from "./0-Data";
+import "../styles/7-Footer.css";
 
 const Footer = () => {
-  const [title, setTitle] = useState("Jeff Wang.")
-  const [subtitle, setSubtitle] = useState("© 2022 All Rights Reserved")
+  const [title, setTitle] = useState("Jeff Wang.");
+  const [subtitle, setSubtitle] = useState("© 2022 All Rights Reserved");
 
   return (
-    <footer id = "contact">
+    <footer id="contact">
       <h3>{title}</h3>
       <div className="footer-links">
         {social.map((social) => {
           return (
-            <a 
+            <a
               key={social.id}
-              href={social.url} 
+              href={social.url}
               target="_"
-              className='icon'
+              className="icon"
               onMouseEnter={() => setTitle(social.header)}
               onMouseLeave={() => setTitle("Jeff Wang.")}
-            >{social.icon}</a>
+            >
+              {social.icon}
+            </a>
           );
         })}
       </div>
-      <a href="https://github.com/jeffwang4321" target="_" onMouseEnter={() => setSubtitle("Built with 💙 by Jeff Wang")} onMouseLeave={() => setSubtitle("© 2022 All Rights Reserved")}>{subtitle}</a>
+      <a
+        href="https://github.com/jeffwang4321"
+        target="_"
+        onMouseEnter={() => setSubtitle("Built with 💙 by Jeff Wang")}
+        onMouseLeave={() => setSubtitle("© 2022 All Rights Reserved")}
+      >
+        {subtitle}
+      </a>
     </footer>
   );
 };

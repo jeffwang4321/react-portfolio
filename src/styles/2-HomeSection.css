@@ -5,7 +5,7 @@ HomePage
 */
 #home {
   padding-top: 5.5rem;
-  text-align: center;  
+  text-align: center;
 }
 #home img {
   height: 18rem;
@@ -48,7 +48,7 @@ HomePage
 #git_button b {
   vertical-align: middle;
 }
-#git_button:hover, 
+#git_button:hover,
 #git_button:hover #FaGithub {
   color: var(--clr-highlight);
 }
