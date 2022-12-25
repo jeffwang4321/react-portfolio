@@ -57,14 +57,8 @@ export const work = [
     company: "Royal Bank of Canada",
     title: "Site Reliability Developer",
     dates: "Jan 2023 – Present",
-    duties: [
-      "...",
-      "..."
-    ],
-    technologies: [
-      "...",
-      "..."
-    ],
+    duties: ["..."],
+    technologies: ["..."],
     images: [],
   },
   {
