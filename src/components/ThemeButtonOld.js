@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { RiSunFill } from "react-icons/ri";
-import { FiMoon } from "react-icons/fi";
 import "../styles/ThemeButton.css";
 
 const ThemeButton = () => {
@@ -19,8 +18,9 @@ const ThemeButton = () => {
   }, [theme]);
 
   return (
-    theme == "light-theme"? <FiMoon className="theme-btn-icon" onClick={toggleTheme}/> :
-    <RiSunFill className="theme-btn-icon" onClick={toggleTheme}/>
+    <button className="theme-btn" onClick={toggleTheme}>
+      <RiSunFill className="theme-btn-icon" />
+    </button>
   );
 };
 

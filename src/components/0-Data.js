@@ -7,11 +7,11 @@ export const links = [
     url: "#home",
     text: "Home",
   },
-  {
-    id: 2,
-    url: "#about",
-    text: "About",
-  },
+  // {
+  //   id: 2,
+  //   url: "#about",
+  //   text: "About",
+  // },
   {
     id: 3,
     url: "#work",
@@ -22,11 +22,11 @@ export const links = [
     url: "#projects",
     text: "Projects",
   },
-  {
-    id: 5,
-    url: "#contact",
-    text: "Contact",
-  },
+  // {
+  //   id: 5,
+  //   url: "#contact",
+  //   text: "Contact",
+  // },
 ];
 
 export const social = [
@@ -34,41 +34,43 @@ export const social = [
     id: 1,
     url: "mailto:jeffwang4321@gmail.com",
     icon: <FaRegEnvelope />,
-    header: "jeffwang4321@gmail.com",
+    header: "Email",
   },
   {
     id: 2,
     url: "https://github.com/jeffwang4321",
     icon: <FaGithub />,
-    header: "github.com/jeffwang4321",
+    header: "Github",
   },
   {
     id: 3,
     url: "https://www.linkedin.com/in/jw4321/",
     icon: <FaLinkedin />,
-    header: "linkedin.com/in/jw4321",
+    header: "Linkedin",
   },
 ];
 
 export const work = [
   {
     id: 4,
-    header: "RBC",
+    header: "Royal Bank",
     company: "Royal Bank of Canada",
     title: "Site Reliability Developer",
     dates: "Jan 2023 – Present",
-    duties: [".."],
-    technologies: ["..."],
+    duties: [
+      "Responsible for ansible automation, implementing SLOs and incident management",
+    ],
+    technologies: ["Python", "Tableau", "Ansible", "Linux", "Shell Scripting"],
     images: [],
   },
   {
     id: 3,
-    header: "GOV CANADA",
+    header: "Government",
     company: "Government of Canada (PSPC)",
     title: "Web Application Developer, Co-op",
     dates: "May 2022 – Sep 2022",
     duties: [
-      "Developed and optimized 4 enterprise-level web applications for the Canadian government, handling over $945 million in transactions and annual gross using C#, ASP.NET Core, Vue.js, TypeScript, CSS, MS SQL and jQuery",
+      "Developed and optimized 4 enterprise-level web applications for federal departments, handling over $945 million in transactions and annual gross using C#, ASP.NET Core, Vue.js, TypeScript, CSS, MS SQL and jQuery",
       "Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters",
       "Refactored MVC architecture, implemented business billing logic, and automated database scripting in PHP",
     ],
@@ -91,17 +93,17 @@ export const work = [
   },
   {
     id: 2,
-    header: "RAINFOREST",
+    header: "Rainforest",
     company: "Rainforest Automation Inc",
     title: "Software Developer, Co-op",
     dates: "Jan 2021 – Sep 2021",
     duties: [
-      "Deployed 3 major functionalities to the company cloud web portal, driving over $4 million in sales using React, Redux, JavaScript, AWS, Lambda, S3, HTML and SASS. Resolving over 40+ JIRA bugs in a 4-month period",
+      "Deployed 3 major functionalities to the company cloud web portal, driving over $4 million in sales using React, Redux.js, JavaScript, AWS, Lambda, S3, HTML and SASS. Resolving over 40+ JIRA bugs in 4 month",
       "Reduced the demand history graph's render time by 80% from 5s to 1s by implementing Redux caching",
-      "Designed and developed the inactivity timeout function that automatically logs off a user after a period of time",
+      "Designed and developed an inactivity timeout function that automatically logs off a user after a period of time",
       "Implemented the pricing graph feature using Canvas API and optimized JSON history using Redux states",
       "Designed and automated frontend E2E testing using Cypress and firmware tests using Python's Fabric library",
-      "Automated REST API performance testing to monitor cloud health using Postman collections and environments",
+      "Automated REST API performance tests to monitor cloud health using Postman collections and environments",
       "Updated, troubleshooted, and reprogrammed UNIX firmware using CMD, Bash scripts, and XML commands",
     ],
     technologies: [
@@ -129,14 +131,14 @@ export const work = [
   },
   {
     id: 1,
-    header: "CLEARDENT",
+    header: "ClearDent",
     company: "Prococious Technology Inc",
     title: "Database Support Technician, Co-op",
     dates: "May 2019 – Dec 2019",
     duties: [
-      "Responsible for client software setup, updates, Microsoft SQL Server database migrations",
-      "Maintained, debugged and applied schema updates to SQL Servers using SQL Server Management Studio",
-      "Performed cloud database setup, backups, and automated integrity testing on DB backups using C++",
+      "Performed cloud database setup, backups, and automated integrity testing on database backups using C++",
+      "Responsible for client software setup, software updates, QA and Microsoft SQL Server database migrations",
+      "Maintained, debugged, and applied schema updates to SQL Servers using SQL Server Management Studio",
     ],
     technologies: [
       "SQL",
@@ -166,7 +168,7 @@ export const project = [
     company: "Multiplayer Socket Game - Personal Project",
     dates: "Duration: 2 weeks (Nov 2020)",
     duties: [
-      "Architectured the server-side web application’s frontend and backend using Node.js, Express.js, and Socket.io",
+      "Architectured the server-side web application's frontend and backend using Node.js, Express.js, and Socket.io",
       "Implemented responsive design, a group chat feature, 3 unique minigames, and automatic score tracking",
       "Organized client connections into unique game rooms where individual rooms can run asynchronously",
       "Implemented real-time communication between the client-server environment using TCP web sockets",

@@ -1,0 +1,42 @@
+/*
+=============== 
+Theme Button
+===============
+*/
+.theme-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 5vw;
+  z-index: 1;
+  padding: 15px 15px 10px;
+  color: white;
+  background-color: var(--clr-main-1);
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px grey;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.theme-btn:hover {
+  background-color: var(--clr-highlight);
+}
+
+.theme-btn-icon {
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: white;
+  }
+  80% {
+    color: white;
+  }
+  81% {
+    color: transparent;
+  }
+  100% {
+    color: transparent;
+  }
+}

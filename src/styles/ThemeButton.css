@@ -3,40 +3,15 @@
 Theme Button
 ===============
 */
-.theme-btn {
-  position: fixed;
-  bottom: 2rem;
-  right: 5vw;
-  z-index: 1;
-  padding: 15px 15px 10px;
-  color: white;
-  background-color: var(--clr-main-1);
-  border: none;
-  border-radius: 50%;
-  box-shadow: 0 5px 10px grey;
+.theme-btn-icon {
+  margin-left: 10px;
+  color: var(--clr-font);
   font-size: 1.5rem;
   cursor: pointer;
-  transition: var(--transition);
+  border-radius: 50%;
+  padding: 2px;
+  background-color: none;
 }
-.theme-btn:hover {
-  background-color: var(--clr-highlight);
-}
-
-.theme-btn-icon {
-  animation: blink 4s infinite;
-}
-
-@keyframes blink {
-  0% {
-    color: white;
-  }
-  80% {
-    color: white;
-  }
-  81% {
-    color: transparent;
-  }
-  100% {
-    color: transparent;
-  }
+.theme-btn-icon:hover {
+  background-color: rgba(180, 180, 180, 0.4);
 }

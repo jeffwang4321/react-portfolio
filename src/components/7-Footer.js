@@ -3,8 +3,8 @@ import { social } from "./0-Data";
 import "../styles/7-Footer.css";
 
 const Footer = () => {
-  const [title, setTitle] = useState("Jeff Wang.");
-  const [subtitle, setSubtitle] = useState("© 2022 All Rights Reserved");
+  const [title, setTitle] = useState("JEFF WANG.");
+  // const [subtitle, setSubtitle] = useState("© 2022 All Rights Reserved");
 
   return (
     <footer id="contact">
@@ -18,21 +18,22 @@ const Footer = () => {
               target="_"
               className="icon"
               onMouseEnter={() => setTitle(social.header)}
-              onMouseLeave={() => setTitle("Jeff Wang.")}
+              onMouseLeave={() => setTitle("JEFF WANG.")}
             >
               {social.icon}
             </a>
           );
         })}
       </div>
-      <a
+      Built with 💙 by Jeff
+      {/* <a
         href="https://github.com/jeffwang4321"
         target="_"
         onMouseEnter={() => setSubtitle("Built with 💙 by Jeff Wang")}
         onMouseLeave={() => setSubtitle("© 2022 All Rights Reserved")}
       >
         {subtitle}
-      </a>
+      </a> */}
     </footer>
   );
 };

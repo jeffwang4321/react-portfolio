@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { links, social } from "./0-Data";
+import ThemeButton from "./ThemeButton";
 import "../styles/1-Navbar.css";
 
 const Navbar = () => {
@@ -46,9 +47,13 @@ const Navbar = () => {
                 </li>
               );
             })}
+            <li>
+              <ThemeButton />
+            </li>
           </ul>
         </div>
-        <ul className="social-icons">
+        
+        {/* <ul className="social-icons">
           {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon;
             return (
@@ -59,7 +64,7 @@ const Navbar = () => {
               </li>
             );
           })}
-        </ul>
+        </ul> */}
       </div>
     </nav>
   );

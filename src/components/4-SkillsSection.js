@@ -17,7 +17,7 @@ const SkillsSection = () => {
           </li>
           <li>
             <strong>Major:</strong>
-            <span> &#160; BSc Computing Science</span>
+            <span> &#160; Computer Science</span>
           </li>
           <li>
             <strong>Education:</strong>
