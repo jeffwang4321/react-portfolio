@@ -4,30 +4,30 @@ Global Color Themes
 ===============
 */
 .dark-theme {
-  --clr-bg-1: black;
-  --clr-highlight: #334168;
+  --clr-bg-1: #1b1b1d;
+  --clr-highlight: #596b78;
 
   --clr-main-1: #4070f4;
-  --clr-main-2: #334168;
+  --clr-main-2: #242526;
 
-  --clr-sub-1: #334168;
-  --clr-sub-2: white;
+  --clr-sub-1: #596b78;
+  --clr-sub-2: #ebedf0;
 
-  --clr-font: white;
-  --clr-footer: #334168;
+  --clr-font: #ebedf0;
+  --clr-footer: #242526;
 
-  --clr-dropshadow: rgba(51, 65, 104, 0.8);
+  /* --clr-dropshadow: rgba(51, 65, 104, 0.8); */
   --transition: all 0.3s linear;
 }
 .light-theme {
   --clr-bg-1: white;
-  --clr-highlight: #657d98;
+  --clr-highlight: #596b78;
 
   --clr-main-1: #4070f4;
   --clr-main-2: #f4f7ff;
 
-  --clr-sub-1: #dae2ec;
-  --clr-sub-2: #657d98;
+  --clr-sub-1: #ebedf0;
+  --clr-sub-2: #596b78;
 
   --clr-font: black;
   --clr-footer: white;

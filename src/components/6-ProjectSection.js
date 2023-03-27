@@ -57,8 +57,7 @@ const ProjectSection = () => {
               <div className="iframeVideo">
                 <iframe
                   style={{
-                    border: "1px solid rgba(0, 0, 0, 0.1)",
-                    background: "white",
+                    border: "1px solid rgba(0, 0, 0, 0.1)"
                   }}
                   title={project[index].video}
                   height="500vh"
