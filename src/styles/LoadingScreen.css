@@ -1,0 +1,31 @@
+/*
+=============== 
+Loading Bar
+===============
+*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-right: 150px;
+}
+.bar {
+  width: 30px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #dd5f4e;
+}
+
+.loading .bar {
+  animation: loading 3.01s;
+  animation-timing-function: linear;
+  /* animation: loading 3s cubic-bezier(0.1, 0.7, 1.0, 0.1); */
+}
+
+@keyframes loading {
+  100% {
+    transform: translate(150px, 0);
+    background-color: #4070f4;
+  }
+}
