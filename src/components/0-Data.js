@@ -323,7 +323,7 @@ export const project = [
       "Developed a Reversi AI program in Python focusing on Monte-Carlo Tree Search and piece mobility",
       "Implemented a custom scoring heuristic on N random playouts to determine the most optimal move for any given board state",
       "Wrote automatable test scripts and conducted performance measures to ensure program quality and integrity",
-      "Conducted data analysis over 1,000 test runs and efficiently transcribed the data into a final written report.",
+      "Conducted data analysis over 1,000 test runs and efficiently transcribed the data into a final written report",
     ],
     technologies: ["Python", "Ubuntu", "WSL"],
     images: [
