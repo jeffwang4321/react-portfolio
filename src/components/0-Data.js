@@ -72,7 +72,7 @@ export const work = [
     duties: [
       "Developed and optimized 4 enterprise-level web applications for federal departments, handling over $945 million in transactions and annual gross using C#, ASP.NET Core, Vue.js, TypeScript, CSS, MS SQL and jQuery",
       "Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters",
-      "Refactored MVC architecture, implemented business billing logic, and automated database scripting in PHP.",
+      "Refactored MVC architecture, implemented business billing logic, and automated database scripting in PHP",
     ],
     technologies: [
       "ASP.NET Core",
