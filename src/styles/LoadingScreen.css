@@ -7,7 +7,7 @@ Loading Bar
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   padding-right: 150px;
 }
 .bar {

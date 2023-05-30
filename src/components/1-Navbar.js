@@ -30,7 +30,10 @@ const Navbar = () => {
             <span>JEFF</span> WANG.
           </h2>
           <button className="nav-toggle" onClick={toggleLinks}>
-            <FaBars />
+            <FaBars className="menu-icon" style={{transform: `rotate(${showLinks ? '90deg' : '0'})`}}/>
+            {/* {
+              showLinks ? <FaBars style={{transform: 'rotate(90deg)'}}/> : <FaBars style={{transform: 'rotate(0)'}}/>
+            } */}
           </button>
         </div>
         <div className="links-container" ref={linksContainerRef}>

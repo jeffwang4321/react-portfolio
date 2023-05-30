@@ -28,11 +28,9 @@ nav {
   border-color: transparent;
   font-size: 1.2rem;
   cursor: pointer;
-  transition: var(--transition);
 }
-.nav-toggle:hover {
-  color: var(--clr-main-1);
-  transform: rotate(90deg);
+.menu-icon {
+  transition: var(--transition);
 }
 .links a {
   display: block;
@@ -86,7 +84,7 @@ nav {
     margin: 0rem 0.6rem;
     /* border-bottom: 3px solid var(--clr-main-1); */
   }
-  .social-icons, .theme-btn-icon {
+  /* .social-icons {
     display: flex;
   }
   .social-icons a {
@@ -96,5 +94,5 @@ nav {
   }
   .social-icons a:hover {
     color: var(--clr-main-1);
-  }
+  } */
 }
