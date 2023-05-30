@@ -58,9 +58,10 @@ export const work = [
     title: "Site Reliability Developer",
     dates: "Jan 2023 – Present",
     duties: [
-      "Responsible for ansible automation, implementing SLOs and incident management",
+      "Worked directly under the Director of Finance IT DevOps, overseeing the PLANET SRE program as the project manager, and coordinating 3+ teams on agile deliverables while ensuring an above 99% data availability SLA",
+      "Developed a Python script to automate logstash app migrations from OCP3 to OCP4 using a Jenkins pipeline",
     ],
-    technologies: ["Python", "Tableau", "Ansible", "Linux", "Shell Scripting"],
+    technologies: ["Python", "Tableau", "Ansible", "Linux", "OCP4", "Jenkins", "Shell Scripting"],
     images: [],
   },
   {
@@ -72,7 +73,7 @@ export const work = [
     duties: [
       "Developed and optimized 4 enterprise-level web applications for federal departments, handling over $945 million in transactions and annual gross using C#, ASP.NET Core, Vue.js, TypeScript, CSS, MS SQL and jQuery",
       "Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters",
-      "Refactored MVC architecture, implemented business billing logic, and automated database scripting in PHP.",
+      "Refactored MVC architecture, implemented business billing logic, and automated database scripting in PHP",
     ],
     technologies: [
       "ASP.NET Core",
@@ -375,4 +376,55 @@ export const workSubtitles = [
   " Developed the Edit Device Dashboard that configures device information and POST API request to cloud DB",
   " Updated, troubleshooted, and reprogrammed UNIX firmware using Bash scripts and XML commands",
   " Maintained, debugged and applied schema updates to SQL Servers using SQL Server Management Studio",
+];
+
+export const imageToggles = [
+  {
+    id: 1,
+    title: "Figure 1: Government of Canada",
+    src: "./assets/PSPC-1.jpg",
+    subtitle: " Designed and deployed a responsive GIS web map parameters menu controlling data layers and map filters",
+  },
+  {
+    id: 2,
+    title: "Figure 2: Government of Canada",
+    src: "./assets/PSPC-2.jpg",
+    subtitle: " Developed the database tabs and filtering feature handling Esquimalt Graving Dock billing transactions",
+  },
+  {
+    id: 3,
+    title: "Figure 3: Rainforest Automation",
+    src: "./assets/rainforest-1.jpg",
+    subtitle: " Reduced the demand history graph's render time by 80% from 5s to 1s by implementing Redux caching",
+  },
+  {
+    id: 4,
+    title: "Figure 4: Rainforest Automation",
+    src: "./assets/rainforest-1.5.jpg",
+    subtitle: " Implemented the pricing graph feature using Canvas API and optimized JSON history using Redux states",
+  },
+  {
+    id: 5,
+    title: "Figure 5: Rainforest Automation",
+    src: "./assets/rainforest-2.jpg",
+    subtitle: " Optimized the weekly demand history graph's render time by 50% by plotting 60m intervals instead of 15m",
+  },
+  {
+    id: 6,
+    title: "Figure 6: Rainforest Automation",
+    src: "./assets/rainforest-3.jpg",
+    subtitle: " Developed the Edit Device Dashboard that configures device information and POST API request to cloud DB",
+  },
+  {
+    id: 7,
+    title: "Figure 7: Rainforest Automation",
+    src: "./assets/rainforest-4.jpg",
+    subtitle: " Updated, troubleshooted, and reprogrammed UNIX firmware using Bash scripts and XML commands",
+  },
+  {
+    id: 8,
+    title: "Figure 8: Rainforest Automation",
+    src: "./assets/rainforest-3.jpg",
+    subtitle: " Maintained, debugged and applied schema updates to SQL Servers using SQL Server Management Studio",
+  },
 ];

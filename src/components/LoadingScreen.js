@@ -3,9 +3,9 @@ import "../styles/LoadingScreen.css";
 
 const LoadingScreen = () => {
   return (
-    <div class="container">
-      <div class="loading">
-        <div class="bar"></div>
+    <div className="container">
+      <div className="loading">
+        <div className="bar"></div>
       </div>
     </div>
   );

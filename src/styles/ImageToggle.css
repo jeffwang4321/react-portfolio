@@ -8,25 +8,30 @@ ImageToggle
   padding-bottom: 3rem;
 }
 .img-container {
-  margin: -3rem auto;
+  margin: 0 auto;
   width: 65vw;
   max-width: 60rem;
 }
 .work-img {
   width: 100%;
-  height: 100%;
+  height: 30vw;
   cursor: pointer;
+}
+.img-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.img-btn-container h3 {
+  width: 20vw;
 }
 .prev-btn,
 .next-btn {
-  position: relative;
-  justify-self: right;
-  top: 2vw;
-  left: 23vw;
-  margin: 0 0.5rem;
+  margin: 0 1rem;
   padding: 6px 5px 0;
   color: white;
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--clr-main-1);
   border-color: transparent;
   border-radius: 8px;
   font-size: 1.5rem;
@@ -34,8 +39,14 @@ ImageToggle
 }
 .prev-btn:hover,
 .next-btn:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--clr-highlight);;
 }
 .img-subtitle {
-  padding-top: 1em;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 990px) {
+  .img-btn-container h3 {
+    width: 50vw;
+  }
 }

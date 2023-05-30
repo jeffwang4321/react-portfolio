@@ -8,8 +8,6 @@ import ProjectSection from "./components/6-ProjectSection";
 import Footer from "./components/7-Footer";
 import ImageToggle from "./components/ImageToggle";
 import LoadingScreen from "./components/LoadingScreen";
-import { workImages } from "./components/0-Data";
-import { workSubtitles } from "./components/0-Data";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -30,7 +28,7 @@ function App() {
       <AboutSection />
       <SkillsSection />
       <WorkSection />
-      <ImageToggle images={workImages} subtitles={workSubtitles} />
+      <ImageToggle />
       <ProjectSection />
       <Footer />
     </>

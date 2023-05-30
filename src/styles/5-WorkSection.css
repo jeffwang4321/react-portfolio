@@ -22,6 +22,7 @@ Work Page
 .project-center {
   width: 70vw;
   margin: 0 auto;
+  padding-right: 50px;
 }
 .btn-container {
   display: flex;
@@ -86,11 +87,11 @@ Work Page
 
 .technologies {
   width: 65vw;
-  margin: 1.5rem auto;
+  margin: 0 auto 2rem;
 }
 .technologies h3 {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
 }
 
 @media screen and (min-width: 990px) {
