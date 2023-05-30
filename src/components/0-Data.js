@@ -306,10 +306,10 @@ export const project = [
     ],
     technologies: ["Python", "SQLite", "Ubuntu", "WSL"],
     images: [
-      "./assets/library-1.jpg",
-      "./assets/library-2.jpg",
-      "./assets/library-3.jpg",
-      "./assets/library-4.jpg",
+      // "./assets/library-1.jpg",
+      // "./assets/library-2.jpg",
+      // "./assets/library-3.jpg",
+      // "./assets/library-4.jpg",
     ],
     video: "",
     github: "https://github.com/jeffwang4321/Library-Database",
@@ -328,9 +328,9 @@ export const project = [
     ],
     technologies: ["Python", "Ubuntu", "WSL"],
     images: [
-      "./assets/reversi-1.jpg",
-      "./assets/reversi-2.jpg",
-      "./assets/reversi-3.jpg",
+      // "./assets/reversi-1.jpg",
+      // "./assets/reversi-2.jpg",
+      // "./assets/reversi-3.jpg",
     ],
     video: "",
     github:

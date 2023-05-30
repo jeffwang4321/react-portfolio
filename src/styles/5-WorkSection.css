@@ -20,9 +20,8 @@ Work Page
 /* Job buttons */
 .jobs-center,
 .project-center {
-  width: 70vw;
+  width: 80vw;
   margin: 0 auto;
-  padding-right: 50px;
 }
 .btn-container {
   display: flex;
@@ -99,6 +98,7 @@ Work Page
     display: grid;
     grid-template-columns: 14rem 1fr;
     column-gap: 4rem;
+    padding-right: 50px;
   }
   .btn-container {
     flex-direction: column;

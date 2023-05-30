@@ -7,6 +7,9 @@ HomePage
   padding-top: 5.5rem;
   text-align: center;
 }
+#home p {
+  padding: 0 10px;
+}
 #home img {
   height: 18rem;
   width: 18rem;
@@ -51,4 +54,10 @@ HomePage
 #git_button:hover,
 #git_button:hover #FaGithub {
   color: var(--clr-highlight);
+}
+
+@media screen and (max-width: 990px) {
+  .img-btn-container h3 {
+    width: 50vw;
+  }
 }

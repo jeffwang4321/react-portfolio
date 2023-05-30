@@ -17,3 +17,8 @@ AboutPage
 #about p {
   padding: 1rem 25%;
 }
+@media only screen and (max-width: 815px) {
+  #about p {
+    padding: 1rem 10%;
+  }
+}

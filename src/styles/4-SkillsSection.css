@@ -109,13 +109,9 @@ li a:hover {
 
 /* Shift SkillsSection into 1 column and show Chat bubbles again */
 @media only screen and (max-width: 815px) {
-  #about p {
-    padding: 1rem 15%;
-  }
-
   .skills {
     display: block;
-    padding: 0 15%;
+    padding: 0 10%;
   }
   .column {
     margin-top: 3rem;
