@@ -14,11 +14,12 @@ Loading Bar
   width: 30px;
   height: 10px;
   border-radius: 5px;
-  background-color: #dd5f4e;
+  /* background-color: #dd5f4e; */
+  background-color: #4070f4;
 }
 
 .loading .bar {
-  animation: loading 1.05s;
+  animation: loading 1.03s;
   animation-timing-function: linear;
   /* animation: loading 3s cubic-bezier(0.1, 0.7, 1.0, 0.1); */
 }
@@ -26,6 +27,6 @@ Loading Bar
 @keyframes loading {
   100% {
     transform: translate(150px, 0);
-    background-color: #4070f4;
+    /* background-color: #4070f4; */
   }
 }
