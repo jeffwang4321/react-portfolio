@@ -32,7 +32,7 @@ const Navbar = () => {
           <button className="nav-toggle" onClick={toggleLinks}>
             <FaBars className="menu-icon" style={{transform: `rotate(${showLinks ? '90deg' : '0'})`}}/>
             {/* {
-              showLinks ? <FaBars style={{transform: 'rotate(90deg)'}}/> : <FaBars style={{transform: 'rotate(0)'}}/>
+              showLinks ? <FaBars style={{transform: 'rotate(270deg)'}}/> : <FaBars style={{transform: 'rotate(0)'}}/>
             } */}
           </button>
         </div>
