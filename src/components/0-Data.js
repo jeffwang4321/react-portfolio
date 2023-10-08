@@ -58,10 +58,12 @@ export const work = [
     title: "Site Reliability Developer",
     dates: "Jan 2023 – Present",
     duties: [
-      "Worked directly under the Director of Finance IT DevOps, overseeing the PLANET SRE program as the project manager, and coordinating 3+ teams on agile deliverables while ensuring an above 99% data availability SLA",
+      "Designed and developed frontend dashboards to track KPI breaches and calculate SLO %’s using Angular.js",
+      "Oversaw RBC's PLANET application's SRE program as the project manager; coordinating 3+ teams on agile deliverables while ensuring an above 98% data availability SLA from production support",
       "Developed a Python script to automate logstash app migrations from OCP3 to OCP4 using a Jenkins pipeline",
     ],
     technologies: [
+      "Angular",
       "Python",
       "Tableau",
       "Ansible",
@@ -132,7 +134,6 @@ export const work = [
       // "XML",
       // "Atlassian",
       "Postman",
-      
     ],
     images: [
       // './assets/rainforest-1.gif',
