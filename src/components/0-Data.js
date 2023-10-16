@@ -58,7 +58,7 @@ export const work = [
     title: "Site Reliability Developer",
     dates: "Jan 2023 – Present",
     duties: [
-      "Designed and developed frontend dashboards to track KPI breaches and calculate SLO %’s using Angular.js",
+      "Designed and developed frontend dashboards to track KPI breaches and calculate SLO %’s using React.js",
       "Oversaw RBC's PLANET application's SRE program as the project manager; coordinating 3+ teams on agile deliverables while ensuring an above 98% data availability SLA from production support",
       "Developed a Python script to automate logstash app migrations from OCP3 to OCP4 using a Jenkins pipeline",
     ],
