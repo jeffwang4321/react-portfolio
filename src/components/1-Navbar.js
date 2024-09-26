@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
-import { links, social } from "./0-Data";
+import { links } from "./0-Data";
 import ThemeButton from "./ThemeButton";
 import "../styles/1-Navbar.css";
 

@@ -19,7 +19,7 @@ const ThemeButton = () => {
   }, [theme]);
 
   return (
-    theme == "light-theme"? <FiMoon className="theme-btn-icon" onClick={toggleTheme}/> :
+    theme === "light-theme"? <FiMoon className="theme-btn-icon" onClick={toggleTheme}/> :
     <RiSunFill className="theme-btn-icon" onClick={toggleTheme}/>
   );
 };
